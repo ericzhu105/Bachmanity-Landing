@@ -123,7 +123,7 @@ const Home = (props) => {
             distinguished investors, esteemed universities, celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving</div> 
-          <button className="home-button2 button">More About Us 🡭</button>
+          <Link to="/team"><button className="home-button2 button">More About Us 🡭</button></Link>
         </div>
         <span className="home-text20">
           <span>
