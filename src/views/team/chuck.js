@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import './team.css'
+import './chuck.css'
 
-const Team = (props) => {
+const Chuck = (props) => {
 
   const showBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'flex'
@@ -15,27 +15,28 @@ const Team = (props) => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
 
-
   return (
-    <div className="team-container">
+    <div className="container">
       <Helmet>
-        <title>Team - Bachmanity Capital</title>
-        <meta property="og:title" content="Team - BachmanityCapital" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Bachmanity Capital is a $20M fund to empower passionate entrepreneurs to “make the world a better place”" />
+        <title>Bachmanity Capital</title>
+        <meta property="og:title" content="BachmanityCapital" />
       </Helmet>
       <header className="navbar-interactive">
         <span className="nav-text"><a href='/'><img src="/logo.svg"></img></a></span>
         <div className="desktop-menu">
           <nav className="nav-links">
-            <Link to="/" className="navlink textUnderline">
+            <Link to="/" className="navlink">
               Home
             </Link>
-            <Link to="/team" className="navlink1">
+            <Link to="/team" className="navlink1 textUnderline">
               Team
             </Link>
             <Link to="/portfolio" className="navlink2 textUnderline">
               Portfolio
             </Link>
-            <span className="team-text01 textUnderline">Pitch Us</span>
+            <span className="text01 textUnderline">Pitch Us</span>
           </nav>
         </div>
         <div className="mobile-burger-menu">
@@ -73,145 +74,106 @@ const Team = (props) => {
           </div>
         </div>
       </header>
-      <div className="team-container01">
-        <h1 className="team-text07">Our Partners</h1>
-        <span className="team-text08">
-          Founded by Two Gen Z Operators, Technical Founders, and Angel
-          Investors
-        </span>
-      </div>
-      <div className="team">
-        <div className="team-separator"></div>
-        <div className="team-elam" id="team-elam">
-          <div className="team-container03">
-            <span className="elam-text01">Christian Elam</span>
-            <span className="elam-hide">FOUNDING GENERAL PARTNER</span>
-          </div>
-          <img src={"/elam.png"} alt="image" id="elam-image" className='elam-image'/>
-          <span className="elam-text02">FOUNDING GENERAL PARTNER</span>
-          <Link to="/investors/christian-elam" className="elam-arrow"><img src={"/arrow-right.svg"}></img></Link>
-        </div>
-        <div className="team-separator"></div>
-        <div className="team-eric">
-          <div className="team-container05">
-            <span className="eric-text01">Eric Zhu</span>
-            <span className="eric-hide">GENERAL PARTNER</span>
-          </div>
-          <img src={"/eric.png"} alt="image" id="eric-image" className='eric-image'/>
-          <span className="eric-text02">GENERAL PARTNER</span>
-          <Link to="/investors/eric-zhu" className="eric-arrow"><img src={"/arrow-right.svg"}></img></Link>
-        </div>
-        <div className="team-separator"></div>
-        <div className="team-chuck">
-          <div className="team-container07">
+      <div className="chuck-container">
+        <div className='chuck-titles'>
+          <div className='chuck-titles01'>
             <span className="chuck-text01">Chuck Figueroa</span>
-            <span className="chuck-hide">PARTNER</span>
+            <span className='hidden-text-chuck'>Partner</span>
+            <div className="socials">
+              <a href='https://twitter.com/Chuck_LA'><img src={"/twitter.svg"} className="home-twitter" alt="twitter" /></a>
+              <a href='https://www.linkedin.com/in/chuckfigueroa1/'><img src={"/link.svg"} className="home-link" alt="link" /></a>
+            </div>
           </div>
-          <img src={"/chuck.png"} alt="image" id="chuck-image" className='chuck-image'/>
-          <span className="chuck-text02">PARTNER</span>
-          <Link to="/investors/chuck-Figueroa" className="chuck-arrow"><img src={"/arrow-right.svg"}></img></Link>
+          <img src={"/chuck-large.png"} className="chuck-pic" />
         </div>
-        <div className="team-separator"></div>
-        <div className="team-kris">
-          <div className="team-container09">
-            <span className="kris-text01">Kristin Stueben</span>
-            <span className="kris-hide">PARTNER</span>
-          </div>
-          <img src={"/kris.png"} alt="image" id="kris-image" className='kris-image'/>
-          <span className="kris-text02">PARTNER</span>
-          <Link to="/investors/Kristin-Stueben" className="kris-arrow"><img src={"/arrow-right.svg"}></img></Link>
+        <div className="chuck-titles">
+          <span className="chuck-texts01">Partner</span>
+          <span className="chuck-texts02">Chuck is a corporate strategist, sports endorsement agent and angel investor. He received his BA from the University of California, Los Angeles. He began his career in Public Relations which led him into the sports industry and has executed global partnerships with the elite NBA,NFL and Olympic athletes. Chuck currently sits on the board and advises a global ecosystem in media, technology and venture capital at the intersection of innovation and legacy.</span>
         </div>
       </div>
       <div className="get-updates">
         <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
-              We occasionally send updates about our portfolio companies,
-              where we are, and what we&apos;re up to. Join our list below. You
-              can expect an email about once every quarter!
+          We occasionally send updates about our portfolio companies, where we are, and what we're up to. Join our list below. You can expect an email about once every quarter!
           </span>
         </div>
         <div className='get-input'>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email Address"
-          className="team-textinput input"
-        />
-        <button className="subscribe">Subscribe</button>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            className="textinput input"
+          />
+          <button className="subscribe">Subscribe</button>
         </div>
       </div>
-      <footer className="team-footer">
-        <div className="team-container11">
-          <div className="team-logo1">
-            <span className="team-text24"><img src="/logo.svg"></img></span>
-            <span className="team-text25">
-              <br></br>
+      <footer className="footer">
+        <div className="footer-container">
+          <div className="footer-logo">
+            <span className="footer-text"><img src="/logo.svg"></img></span>
+            <span className="footer-text71">
+              <br />
               <span>
                 A $20M fund to empower passionate
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                <span dangerouslySetInnerHTML={{ __html: ' ' }} />
               </span>
-              <br></br>
+              <br />
               <span>entrepreneurs to “make the world a better</span>
-              <br></br>
+              <br />
               <span> place&quot;</span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
+              <span dangerouslySetInnerHTML={{ __html: ' ' }} />
+              <span dangerouslySetInnerHTML={{ __html: ' ' }} />
             </span>
           </div>
-            <div className="team-container12">
-              <div className="team-company-container">
-                <span className="team-text34"><a href='/'>Home</a></span>
-                <span className="team-text35">About</span>
-                <span className="team-text36">Careers</span>
+            <div className="footer-container35">
+              <div className="footer-company-container">
+                <span className="footer-text80">
+                  <a href="/">Home</a>
+                </span>
+                <span className="footer-text81">About</span>
+                <span className="footer-text82">Careers</span>
               </div>
-              <div className="team-company-container">
-                <span className="team-text37"><a href='/portfolio'>Portfolio</a></span>
-                <span className="team-text38"><a href='/team'>Team</a></span>
-                <span className="team-text39">Contact</span>
+              <div className="footer-company-container">
+                <span className="footer-text83">
+                  <a href="/portfolio">Portfolio</a>
+                </span>
+                <span className="footer-text84">
+                  <a href="/team">Team</a>
+                </span>
+                <span className="footer-text85">Contact</span>
               </div>
-              <div className="team-company-container" style={{marginRight: 0}}>
-              <span className="team-text40">Terms of Service</span>
-              <span className="team-text41">
+              <div className="footer-company-container" style={{marginRight: 0}}>
+              <span className="footer-text86">Terms of Service</span>
+              <span className="footer-text87">
                 <span>Conduct</span>
-                <br></br>
+                <br />
               </span>
-              <span className="team-text44">Disclosures</span>
+              <span className="footer-text90">Disclosures</span>
             </div>
-            </div>
+          </div>
         </div>
-        <div className="team-separator"></div>
-        <div className='page-end'>
+        <div className="footer-separator"></div>
+        <div className="page-end">
           <div>
-        <span className="text-text45">
-          Copyright © 2023 Bachmanity Capital LLC. All rights reserved
-        </span>
-        </div>
-        <div className="team-container13">
-          <a href='https://twitter.com/BachmanityFund'><img src={"/twitter.svg"} className="team-twitter" alt="twitter" /></a>
-          <a href='https://www.linkedin.com/company/bachmanity-capital/'><img src={"/link.svg"} className="team-link" alt="link" /></a>
-        </div>
+            <span className="footer-text91">
+              Copyright © 2023 Bachmanity Capital LLC. All rights reserved
+            </span>
+          </div>
+          <div className="footer-container36">
+            <a href="https://twitter.com/BachmanityFund">
+              <img src={"/twitter.svg"} className="footer-twitter" alt="twitter" />
+            </a>
+            <a href="https://www.linkedin.com/company/bachmanity-capital/">
+              <img src={"/link.svg"} className="footer-link" alt="link" />
+            </a>
+          </div>
         </div>
       </footer>
+
     </div>
   )
 }
 
-export default Team
+export default Chuck
