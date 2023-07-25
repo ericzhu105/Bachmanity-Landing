@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import { Fade } from "react-awesome-reveal";
+
 import { Helmet } from 'react-helmet'
 
 import './home.css'
@@ -14,7 +16,6 @@ const Home = (props) => {
   const hideBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
-
 
   return (
     <div className="home-container">
