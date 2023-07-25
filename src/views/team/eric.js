@@ -5,6 +5,9 @@ import { Helmet } from 'react-helmet'
 
 import './eric.css'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Eric = (props) => {
 
   const showBurger = () => {
@@ -14,6 +17,8 @@ const Eric = (props) => {
   const hideBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
+
+  AOS.init({duration: 2000, once: true})
 
   return (
     <div className="container">
@@ -74,9 +79,9 @@ const Eric = (props) => {
           </div>
         </div>
       </header>
-      <div className="eric-container">
-        <div className='eric-titles'>
-          <div className='eric-titles01'>
+      <div className="eric-container" data-aos="fade-up">
+        <div className='eric-titles' data-aos="fade-up">
+          <div className='eric-titles01' data-aos="fade-up">
             <span className="eric-text01">Eric Zhu</span>
             <span className='hidden-text-eric'>General Partner</span>
             <div className="socials">
@@ -86,13 +91,13 @@ const Eric = (props) => {
           </div>
           <img src={"/eric-large.png"} className="eric-pic" />
         </div>
-        <div className="eric-titles">
+        <div className="eric-titles" data-aos="fade-up">
           <span className="eric-texts01">General Partner</span>
           <span className="eric-texts02">Eric is a 15 year old growth & technology focused entrepreneur. His expertise is in growth marketing, user acquisition, and operations. He has scaled one startup to 10k+ active users, and founded another startup, which was acquired after growing its waitlist to 49k+ users. Eric is an amazing networker, and has collaborated with several notable figures and executives. His inspiration for co-founding the fund stems from his experience as an operator, VC scout, and angel investor.</span>
         </div>
       </div>
-      <div className="get-updates">
-        <div className="get-updates-container">
+      <div className="get-updates" data-aos="fade-up">
+        <div className="get-updates-container" data-aos="fade-up">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
           We occasionally send updates about our portfolio companies, where we are, and what we're up to. Join our list below. You can expect an email about once every quarter!

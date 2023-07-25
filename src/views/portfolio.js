@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import './portfolio.css'
 
 const Portfolio = (props) => {
@@ -14,6 +17,7 @@ const Portfolio = (props) => {
   const hideBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
+  AOS.init({duration: 2000, once: true})
 
   return (
     <div className="portfolio-container">
@@ -72,13 +76,13 @@ const Portfolio = (props) => {
           </div>
         </div>
       </header>
-      <div className="portfolio-container01">
+      <div className="portfolio-container01" data-aos="fade-up">
         <h1 className="portfolio-text07">Portfolio</h1>
         <span className="portfolio-text08">
           Some companies we&apos;ve backed
         </span>
       </div>
-      <div className="grid-container">
+      <div className="grid-container" data-aos="fade-up">
         <div className="grid-item"><a href='https://www.promly.org/' target="_blank"><img src={"/promly.svg"} alt="image"/></a></div>
         <div className="grid-item"><a href='https://pipe.com/' target='_blank'><img src={"/pipe.svg"} alt="image"/></a></div>
         <div className="grid-item"><a href='https://www.housrapp.co.uk/' target='_blank'><img src={"/housr.svg"} alt="image"/></a></div>
@@ -86,8 +90,8 @@ const Portfolio = (props) => {
         <div className="grid-item"><a href='https://juneshine.com/' target='_blank'><img className="june" src={"/june.svg"} alt="image"/></a></div>
         <div className="grid-item"><a href='https://rentberry.com/' target='_blank'><img src={"/rentberry.svg"} alt="image"/></a></div>
       </div>
-      <div className="get-updates">
-        <div className="get-updates-container">
+      <div className="get-updates" data-aos="fade-up">
+        <div className="get-updates-container" data-aos="fade-up">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
             We occasionally send updates about our portfolio companies,

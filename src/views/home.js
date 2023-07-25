@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import './home.css'
 
 const Home = (props) => {
@@ -14,6 +17,8 @@ const Home = (props) => {
   const hideBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
+
+  AOS.init({duration: 2000, once: true})
 
   return (
     <div className="home-container">
@@ -72,7 +77,7 @@ const Home = (props) => {
           </div>
         </div>
       </header>
-      <div className="home-banner">
+      <div data-aos="fade-up" className="home-banner">
         <h1 className="home-text07">
             Empowering entrepreneurs to<br></br>
             
@@ -104,19 +109,19 @@ const Home = (props) => {
           <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio 🡭</button></Link>
         </div>
       </div>
-      <img
+      <div style={{width: "100%", height: "100%"}} data-aos="fade-up"><img
         alt="image"
         src="/banner.svg"
         className="home-image"
-      />
-      <div className="home-who-we-are">
-        <div className="home-container01">
+      /></div>
+      <div className="home-who-we-are" data-aos="fade-up">
+        <div className="home-container01" data-aos="fade-up">
           <span className="home-text16">
             <span>Who We Are</span>
             <br></br>
             <br></br>
           </span>
-          <div className="home-text17">Bachmanity Capital is a Seed &amp; Series A focused generalist fund
+          <div className="home-text17" data-aos="fade-up">Bachmanity Capital is a Seed &amp; Series A focused generalist fund
             focusing on exciting opportunities with established brands that have
             a proven track record of pushing the limits of innovation and
             achieving success. We leverage our massive A-list network of other
@@ -125,7 +130,7 @@ const Home = (props) => {
             fostering a thriving</div> 
           <Link to="/team"><button className="home-button2 button">More About Us 🡭</button></Link>
         </div>
-        <span className="home-text20">
+        <span data-aos="fade-up" className="home-text20">
           <span>
             Bachmanity Capital is a Seed &amp; Series A focused generalist fund
             focusing on<br></br>exciting opportunities with established brands that have
@@ -144,13 +149,13 @@ const Home = (props) => {
           </span>
         </span>
       </div>
-      <div className="home-investment-criteria">
-        <span className="home-text24">Investment Criteria</span>
-        <div className="home-container02">
-          <div className="separator" style={{ marginBottom: 16 }}></div>
-          <div className="industry-container">
+      <div className="home-investment-criteria" data-aos="fade-up">
+        <span className="home-text24" data-aos="fade-up">Investment Criteria</span>
+        <div className="home-container02" data-aos="fade-up">
+          <div className="separator" data-aos="fade-right" style={{ marginBottom: 16 }}></div>
+          <div className="industry-container" data-aos="fade-up">
             {/* <div className="home-container04"> */}
-            <div className="home-container05">
+            <div className="home-container05" data-aos="fade-up">
               <span className="home-text25">01</span>
               <span className="home-text26">Industry Focus</span>
             </div>
@@ -162,10 +167,10 @@ const Home = (props) => {
               We’re a generalist fund with past experience investing in Deep Tech, Space, B2B, Fintech, Consumer, AI, Prop Tech, Mental Health, and Entertainment
             </span>
           </div>
-          <div className="separator" style={{ marginTop: 16, marginBottom: 16 }}></div>
-          <div className="stage-container">
+          <div className="separator" data-aos="fade-right" style={{ marginTop: 16, marginBottom: 16 }}></div>
+          <div className="stage-container" data-aos="fade-up">
             {/* <div className="home-container07"> */}
-            <div className="home-container08">
+            <div className="home-container08" data-aos="fade-up">
               <span className="home-text28">02</span>
               <span className="home-text29">Stage</span>
             </div>
@@ -177,10 +182,10 @@ const Home = (props) => {
               Our focus is Seed & Series A companies that have shown promising growth and traction in the market. We are also allocation 25% to later stage companies that have a proven track record of pushing the limits of innovation and achieving success
             </span>
           </div>
-          <div className="separator" style={{ marginTop: 16, marginBottom: 16 }}></div>
-          <div className="team-exp-container">
+          <div className="separator" data-aos="fade-right" style={{ marginTop: 16, marginBottom: 16 }}></div>
+          <div className="team-exp-container" data-aos="fade-up">
             {/* <div className="inv-criteria-container"> */}
-            <div className="home-container11">
+            <div className="home-container11" data-aos="fade-up">
               <span className="home-text31">03</span>
               <span className="home-text32">Team Experience</span>
             </div>
@@ -199,9 +204,9 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-our-investments">
-        <span className="home-text35">Our Investments</span>
-        <span className="home-text36">
+      <div className="home-our-investments" data-aos="fade-up">
+        <span className="home-text35" data-aos="fade-up">Our Investments</span>
+        <span className="home-text36" data-aos="fade-up">
           <span>
             We invest in entrepreneurs who facilitate product-led growth, who
             have specific
@@ -214,46 +219,46 @@ const Home = (props) => {
           <br></br>
           <span>insights and passions that equip them to solve problems.</span>
         </span>
-        <div className="home-container15">
-          <div className="invest-separator"></div>
-            <div className="home-container17">
-                <span className="home-text40">Fund Size</span>
-              <span className="home-text41">$20M</span>
+        <div className="home-container15" data-aos="fade-up">
+          <div className="invest-separator" data-aos="fade-right"></div>
+            <div className="home-container17" data-aos="fade-up">
+                <span className="home-text40" data-aos="fade-up">Fund Size</span>
+              <span className="home-text41" data-aos="fade-up">$20M</span>
             </div>
-          <div className="invest-separator"></div>
-            <div className="home-container20">
-                <span className="home-text42">Companies</span>
-              <span className="home-text43">06</span>
+          <div className="invest-separator" data-aos="fade-right"></div>
+            <div className="home-container20" data-aos="fade-up"> 
+                <span className="home-text42" data-aos="fade-up">Companies</span>
+              <span className="home-text43" data-aos="fade-up">06</span>
             </div>
-          <div className="invest-separator"></div>
-            <div className="home-container23">
-                <span className="home-text44">Average Check Size</span>
-              <span className="home-text45">$250K</span>
+          <div className="invest-separator" data-aos="fade-right"></div>
+            <div className="home-container23" data-aos="fade-up">
+                <span className="home-text44" data-aos="fade-up">Average Check Size</span>
+              <span className="home-text45" data-aos="fade-up">$250K</span>
             </div>
         </div>
       </div>
-      <div className="home-how-we-add-value">
-        <div className="home-container25">
-          <div className="home-container26">
-            <span className="home-text46">
+      <div className="home-how-we-add-value" data-aos="fade-up">
+        <div className="home-container25"data-aos="fade-up">
+          <div className="home-container26" data-aos="fade-up">
+            <span className="home-text46" data-aos="fade-up">
                 How We Add
                 Value™
             </span>
           </div>
-          <span className="home-text50">
+          <span className="home-text50" data-aos="fade-up">
             Our backgrounds as developers, operators, and founders fuel our
             obsession with adding real value. We empower ambitious people via
             capital.
           </span>
         </div>
-        <div className="separator how-we-add-val"></div>
-        <div className="home-container27">
+        <div className="separator how-we-add-val" data-aos="fade-right"></div>
+        <div className="home-container27" data-aos="fade-up">
           <div className="home-container28">
             <span className="home-text51">
               Background<sup>01</sup>
             </span>
           </div>
-          <span className="home-text54">
+          <span className="home-text54" data-aos="fade-up">
             We love founders. As developers, operators, and founders ourselves,
             we&apos;re empathetic to founder&apos;s needs, and appreciative of
             their visions. As young builders, we&apos;re active in communities
@@ -261,10 +266,10 @@ const Home = (props) => {
             key insights, great deals, and a massive competitive edge.
           </span>
         </div>
-        <div className="separator"></div>
-        <div className="home-container29">
-          <div className="home-container30">
-            <span className="home-text55">
+        <div className="separator" data-aos="fade-right"></div>
+        <div className="home-container29" data-aos="fade-up">
+          <div className="home-container30" data-aos="fade-up">
+            <span className="home-text55" data-aos="fade-up">
               Network<sup>02</sup>
             </span>
           </div>
@@ -277,14 +282,14 @@ const Home = (props) => {
             subject matter expertise.
           </span>
         </div>
-        <div className="separator"></div>
-        <div className="home-container31">
-          <div className="home-container32">
-            <span className="home-text59">
+        <div className="separator" data-aos="fade-right"></div>
+        <div className="home-container31" data-aos="fade-up">
+          <div className="home-container32" data-aos="fade-up">
+            <span className="home-text59" data-aos="fade-up">
               Ecosystem<sup>03</sup>
             </span>
           </div>
-          <span className="home-text62">
+          <span className="home-text62" > 
             Our passion for community building inspired us to build an ecosystem
             within our fund--for resources founders can use. We support each
             other, tap in to all of our combined networks, like LPs and
@@ -295,8 +300,8 @@ const Home = (props) => {
           </span>
         </div>
       </div>
-      <div className="get-updates">
-        <div className="get-updates-container">
+      <div className="get-updates" data-aos="fade-up">
+        <div className="get-updates-container" data-aos="fade-up">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
               We occasionally send updates about our portfolio companies,
@@ -304,7 +309,7 @@ const Home = (props) => {
               can expect an email about once every quarter!
           </span>
         </div>
-        <div className='get-input'>
+        <div className='get-input' data-aos="fade-up">
           <input
             type="text"
             id="email"
