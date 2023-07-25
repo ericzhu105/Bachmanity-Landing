@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { Fade } from "react-awesome-reveal";
-
 import { Helmet } from 'react-helmet'
 
 import './home.css'
