@@ -91,7 +91,7 @@ const Team = (props) => {
             <span className="elam-text01">Christian Elam</span>
             <span className="elam-hide">FOUNDING GENERAL PARTNER</span>
           </div>
-          <img src={"/elam.png"} alt="image" id="elam-image" className='elam-image'/>
+          <Link to="/investors/christian-elam" className='elam-image'><img src={"/elam.png"} alt="image" id="elam-image"/></Link>
           <span className="elam-text02">FOUNDING GENERAL PARTNER</span>
           <Link to="/investors/christian-elam" className="elam-arrow"><img src={"/arrow-right.svg"}></img></Link>
         </div>
@@ -101,7 +101,7 @@ const Team = (props) => {
             <span className="eric-text01">Eric Zhu</span>
             <span className="eric-hide">GENERAL PARTNER</span>
           </div>
-          <img src={"/eric.png"} alt="image" id="eric-image" className='eric-image'/>
+          <Link to="/investors/eric-zhu" className='eric-image'><img src={"/eric.png"} alt="image" id="eric-image"/></Link>
           <span className="eric-text02">GENERAL PARTNER</span>
           <Link to="/investors/eric-zhu" className="eric-arrow"><img src={"/arrow-right.svg"}></img></Link>
         </div>
@@ -111,7 +111,7 @@ const Team = (props) => {
             <span className="chuck-text01">Chuck Figueroa</span>
             <span className="chuck-hide">PARTNER</span>
           </div>
-          <img src={"/chuck.png"} alt="image" id="chuck-image" className='chuck-image'/>
+          <Link to="/investors/chuck-Figueroa" className='chuck-image'><img src={"/chuck.png"} alt="image" id="chuck-image"/></Link>
           <span className="chuck-text02">PARTNER</span>
           <Link to="/investors/chuck-Figueroa" className="chuck-arrow"><img src={"/arrow-right.svg"}></img></Link>
         </div>
@@ -121,7 +121,7 @@ const Team = (props) => {
             <span className="kris-text01">Kristin Stueben</span>
             <span className="kris-hide">PARTNER</span>
           </div>
-          <img src={"/kris.png"} alt="image" id="kris-image" className='kris-image'/>
+          <Link to="/investors/Kristin-Stueben" className='kris-image'><img src={"/kris.png"} alt="image" id="kris-image" /></Link>
           <span className="kris-text02">PARTNER</span>
           <Link to="/investors/Kristin-Stueben" className="kris-arrow"><img src={"/arrow-right.svg"}></img></Link>
         </div>

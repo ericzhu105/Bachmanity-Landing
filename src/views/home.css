@@ -44,6 +44,7 @@
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
+  max-width: 800px;
 }
 
 .home-btn-group {
@@ -339,61 +340,10 @@
   padding-left: 0;
 }
 
-.team-exp-container:hover,
-.stage-container:hover,
-.industry-container:hover {
-  .arrow {
-    transform: rotate(180deg);
-  }
-
-  transform: scale(1.02);
-}
-
-.team-exp-container:hover~.team-exp-text {
-  display: flex;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 2s;
-  /* Internet Explorer */
-  -o-animation: fadein 2s;
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-
-
-.stage-container:hover~.stage-text {
-  display: flex;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 2s;
-  /* Internet Explorer */
-  -o-animation: fadein 2s;
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-.industry-container:hover~.industry-text {
-  display: flex;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 2s;
-  /* Internet Explorer */
-  -o-animation: fadein 2s;
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-}
 
 .arrow {
   font-size: 60px;
   transition: 1s ease-in-out all;
-  ;
 }
 
 .home-container11 {
