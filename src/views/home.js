@@ -147,8 +147,8 @@ const Home = (props) => {
           </span>
         </span>
         <div  data-aos="zoom-in" data-aos-duration="750" className="home-btn-group">
-          <button className="home-button button">Get In Touch </button>
-          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio </button></Link>
+          <button className="home-button button">Get In Touch 🡭</button>
+          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio 🡭</button></Link>
         </div>
       </div>
       <div style={{width: "100%", height: "100%"}}><img
@@ -192,8 +192,8 @@ const Home = (props) => {
         </span>
       </div>
       <div className="home-investment-criteria">
+        <div className="home-container02">
         <span className="home-text24" data-aos-duration="2000" data-aos="fade-left">Investment Criteria</span>
-        <div className="home-container02" data-aos="zoom-in">
           <div className="separator" data-aos="zoom-in-right" style={{ marginBottom: 16 }}></div>
           <div className="industry-container" data-aos="zoom-in" onClick={openInfo("industry")}>
             {/* <div className="home-container04"> */}
@@ -247,21 +247,12 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-our-investments">
+        <div className="home-container15">
         <span className="home-text35"  data-aos-duration="2000" data-aos="fade-right">Our Investments</span>
         <span className="home-text36"  data-aos-duration="2000" data-aos="fade-right">
-          <span>
             We invest in entrepreneurs who facilitate product-led growth, who
-            have specific
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-          <br></br>
-          <span>insights and passions that equip them to solve problems.</span>
+            have specific insights and passions that equip them to solve problems.
         </span>
-        <div className="home-container15" data-aos="zoom-in">
           <div className="invest-separator" data-aos="zoom-in-left"></div>
             <div className="home-container17" data-aos="zoom-in">
                 <span className="home-text40" data-aos="zoom-in">Fund Size</span>

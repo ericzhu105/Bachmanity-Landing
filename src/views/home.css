@@ -258,9 +258,6 @@
 }
 
 .home-text24 {
-  top: 0px;
-  right: 100px;
-  position: absolute;
   font-size: 60px;
 }
 
@@ -268,7 +265,7 @@
   width: auto;
   display: flex;
   margin-top: var(--dl-space-space-twounits);
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   justify-content: center;
   height: fit-content;
@@ -383,7 +380,7 @@
 
 .home-our-investments {
   width: 100%;
-  height: 700px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -391,19 +388,19 @@
   justify-content: flex-start;
   /* Aligns contents to the top */
   background-color: #51B46B;
+  padding-bottom: var(--dl-space-space-twounits);
 }
 
 .home-text35 {
   color: #FFFFFF;
   font-size: 60px;
-  margin-top: var(--dl-space-space-fourunits);
-  margin-left: var(--dl-space-space-threeunits);
 }
 
 .home-text36 {
   color: #ffffff;
   margin-top: var(--dl-space-space-unit);
-  margin-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  max-width: 620px;
 }
 
 .home-container15 {
@@ -411,14 +408,14 @@
   max-width: 1175px;
   /* Added to limit the width of the centered content */
   display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
   /* Center the element horizontally */
   margin-right: auto;
   /* Center the element horizontally */
+  padding-top: var(--dl-space-space-fourunits);
 }
 
 .home-container17 {
@@ -1095,6 +1092,9 @@ sup {
     height: fit-content;
   }
 
+  /* first .separator child of home-container02 */
+  
+
   .home-container05 span,
   .home-container08 span,
   .home-container11 span {
@@ -1111,9 +1111,10 @@ sup {
 
 
   .home-our-investments {
-    text-align: left;
     width: 100%;
     height: auto;
+    padding: 0;
+    margin: 0;
   }
 
   .home-text35 {
@@ -1126,14 +1127,23 @@ sup {
   .home-text36 {
     margin-left: 0;
     padding-left: 1rem;
+    font-size: 0.8rem !important;
+    padding-right: 1rem;
   }
 
-  .home-container15 span {
+  .home-container15 {
+    padding-top: 0;
+  }
+
+  .home-container15 span:not(.home-text35, .home-text36) {
     font-size: 1.5rem;
   }
 
   .home-container15 div:not(.invest-separator) {
     height: fit-content;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .invest-separator {
