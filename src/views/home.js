@@ -6,6 +6,8 @@ import { Helmet } from 'react-helmet'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import { RiArrowRightUpLine } from 'react-icons/ri'
+
 import './home.css'
 
 const Home = (props) => {
@@ -23,21 +25,21 @@ const Home = (props) => {
     element.style.animation = `fade-${show ? 'in' : 'out'} 2s ease-in-out`;
     element.style.display = show ? 'flex' : 'none';
   };
-  
+
   const toggleArrow = (selector, rotate) => {
     document.querySelector(selector).style.transform = `rotate(${rotate}deg)`;
   };
-  
+
   const openInfo = (type) => {
     let activeType = null;
-  
+
     return () => {
       const infoElements = {
         industry: '.industry-text .industry-arrow',
         stage: '.stage-text .stage-arrow',
         team: '.team-exp-text .team-arrow'
       };
-  
+
       const resetAllElements = () => {
         Object.values(infoElements).forEach((selectors) => {
           const [textSelector, arrowSelector] = selectors.split(' ');
@@ -46,7 +48,7 @@ const Home = (props) => {
         });
         activeType = null;
       };
-  
+
       if (activeType === type) {
         resetAllElements();
       } else {
@@ -58,9 +60,9 @@ const Home = (props) => {
       }
     };
   };
-  
 
-  AOS.init({duration: 1750, once: true, easing: 'ease-in-out'})
+
+  AOS.init({ duration: 1750, once: true, easing: 'ease-in-out' })
 
   return (
     <div className="home-container">
@@ -121,10 +123,10 @@ const Home = (props) => {
       </header>
       <div className="home-banner">
         <h1 className="home-text07" data-aos="zoom-in" data-aos-duration="750">
-            Empowering entrepreneurs to<br></br>
-            
-            build technology that transforms<br></br>
-    
+          Empowering entrepreneurs to<br></br>
+
+          build technology that transforms<br></br>
+
           industries<br></br>
         </h1>
         <span data-aos="zoom-in" data-aos-duration="750" className="home-text13">
@@ -146,12 +148,12 @@ const Home = (props) => {
             />
           </span>
         </span>
-        <div  data-aos="zoom-in" data-aos-duration="750" className="home-btn-group">
-          <button className="home-button button">Get In Touch 🡭</button>
-          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio 🡭</button></Link>
+        <div data-aos="zoom-in" data-aos-duration="750" className="home-btn-group">
+          <a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'><button className="home-button button">Get In Touch <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></a>
+          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></Link>
         </div>
       </div>
-      <div style={{width: "100%", height: "100%"}}><img
+      <div style={{ width: "100%", height: "100%" }}><img
         alt="image"
         src="/banner.svg"
         className="home-image"
@@ -169,8 +171,8 @@ const Home = (props) => {
             achieving success. We leverage our massive A-list network of other
             distinguished investors, esteemed universities, celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving celebrities/pro-athletes, influential members of Congress. By
-            fostering a thriving</div> 
-          <Link to="/team"><button className="home-button2 button">More About Us 🡭</button></Link>
+            fostering a thriving</div>
+          <Link to="/team"><button className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></Link>
         </div>
         <span data-aos-duration="2000" data-aos="fade-left" className="home-text20">
           <span>
@@ -193,7 +195,7 @@ const Home = (props) => {
       </div>
       <div className="home-investment-criteria">
         <div className="home-container02">
-        <span className="home-text24" data-aos-duration="2000" data-aos="fade-left">Investment Criteria</span>
+          <span className="home-text24" data-aos-duration="2000" data-aos="fade-left">Investment Criteria</span>
           <div className="separator" data-aos="zoom-in-right" style={{ marginBottom: 16 }}></div>
           <div className="industry-container" data-aos="zoom-in" onClick={openInfo("industry")}>
             {/* <div className="home-container04"> */}
@@ -248,34 +250,34 @@ const Home = (props) => {
       </div>
       <div className="home-our-investments">
         <div className="home-container15">
-        <span className="home-text35"  data-aos-duration="2000" data-aos="fade-right">Our Investments</span>
-        <span className="home-text36"  data-aos-duration="2000" data-aos="fade-right">
+          <span className="home-text35" data-aos-duration="2000" data-aos="fade-right">Our Investments</span>
+          <span className="home-text36" data-aos-duration="2000" data-aos="fade-right">
             We invest in entrepreneurs who facilitate product-led growth, who
             have specific insights and passions that equip them to solve problems.
-        </span>
+          </span>
           <div className="invest-separator" data-aos="zoom-in-left"></div>
-            <div className="home-container17" data-aos="zoom-in">
-                <span className="home-text40" data-aos="zoom-in">Fund Size</span>
-              <span className="home-text41" data-aos="zoom-in">$20M</span>
-            </div>
+          <div className="home-container17" data-aos="zoom-in">
+            <span className="home-text40" data-aos="zoom-in">Fund Size</span>
+            <span className="home-text41" data-aos="zoom-in">$20M</span>
+          </div>
           <div className="invest-separator" data-aos="zoom-in-left"></div>
-            <div className="home-container20" data-aos="zoom-in"> 
-                <span className="home-text42" data-aos="zoom-in">Companies</span>
-              <span className="home-text43" data-aos="zoom-in">06</span>
-            </div>
+          <div className="home-container20" data-aos="zoom-in">
+            <span className="home-text42" data-aos="zoom-in">Companies</span>
+            <span className="home-text43" data-aos="zoom-in">06</span>
+          </div>
           <div className="invest-separator" data-aos="zoom-in-left"></div>
-            <div className="home-container23" data-aos="zoom-in">
-                <span className="home-text44" data-aos="zoom-in">Average Check Size</span>
-              <span className="home-text45" data-aos="zoom-in">$250K</span>
-            </div>
+          <div className="home-container23" data-aos="zoom-in">
+            <span className="home-text44" data-aos="zoom-in">Average Check Size</span>
+            <span className="home-text45" data-aos="zoom-in">$250K</span>
+          </div>
         </div>
       </div>
       <div className="home-how-we-add-value" data-aos="zoom-in">
-        <div className="home-container25"data-aos="zoom-in">
+        <div className="home-container25" data-aos="zoom-in">
           <div className="home-container26" data-aos="zoom-in">
             <span className="home-text46" data-aos="zoom-in">
-                How We Add
-                Value™
+              How We Add
+              Value™
             </span>
           </div>
           <span className="home-text50" data-aos="zoom-in">
@@ -322,7 +324,7 @@ const Home = (props) => {
               Ecosystem<sup>03</sup>
             </span>
           </div>
-          <span className="home-text62" > 
+          <span className="home-text62" >
             Our passion for community building inspired us to build an ecosystem
             within our fund--for resources founders can use. We support each
             other, tap in to all of our combined networks, like LPs and
@@ -337,9 +339,9 @@ const Home = (props) => {
         <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
-              We occasionally send updates about our portfolio companies,
-              where we are, and what we&apos;re up to. Join our list below. You
-              can expect an email about once every quarter!
+            We occasionally send updates about our portfolio companies,
+            where we are, and what we&apos;re up to. Join our list below. You
+            can expect an email about once every quarter!
           </span>
         </div>
         <div className='get-input' data-aos="zoom-in">

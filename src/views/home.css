@@ -63,7 +63,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   background-color: #51B46B;
-  display: flex;
+  display: inline-block;
 }
 
 .home-button:hover {
@@ -82,7 +82,7 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
   background-color: transparent;
-  display: flex;
+  display: inline-block;
 }
 
 .home-button1:hover {
@@ -230,6 +230,7 @@
 
 .home-button2 {
   border-radius: 30px;
+  display: inline-block;
 }
 
 .home-button2:hover {
@@ -894,7 +895,7 @@ sup {
   } */
 }
 
-@media(min-width: 769px) and (max-width: 1199px) {
+@media(min-width: 1001px) and (max-width: 1199px) {
   .home-banner {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -949,7 +950,7 @@ sup {
   } */
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1000px) {
   .home-banner {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -1379,4 +1380,10 @@ sup {
   to {
     opacity: 0;
   }
+}
+
+.wide-arrow {
+  vertical-align: middle;
+  display: inline-block;
+  align-self: center;
 }
