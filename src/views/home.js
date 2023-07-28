@@ -6,8 +6,6 @@ import { Helmet } from 'react-helmet'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import { RiArrowRightUpLine } from 'react-icons/ri'
-
 import './home.css'
 
 const Home = (props) => {
