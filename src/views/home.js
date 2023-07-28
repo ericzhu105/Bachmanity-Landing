@@ -157,8 +157,8 @@ const Home = (props) => {
         className="home-image"
       /></div>
       <div className="home-who-we-are">
-        <div className="home-container01" data-aos-duration="2000" data-aos="fade-right">
-          <span className="home-text16">
+        <div className="home-container01">
+          <span className="home-text16"  data-aos-duration="2000" data-aos="fade-right">
             <span>Who We Are</span>
             <br></br>
             <br></br>
@@ -170,7 +170,7 @@ const Home = (props) => {
             distinguished investors, esteemed universities, celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving</div>
-          <Link to="/team"><button className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></Link>
+          <Link to="/team"><button  data-aos-duration="2000" data-aos="fade-right" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></Link>
         </div>
         <span data-aos-duration="2000" data-aos="fade-left" className="home-text20">
           <span>
@@ -185,15 +185,15 @@ const Home = (props) => {
             fostering a thriving<br></br>
           </span>
           <span>
-            ecosystem that transcends generations, we endeavor to bridge the gap
+            <br></br>ecosystem that transcends generations, we endeavor to bridge the gap
             in<br></br>the venture world, while creating entrepreneurial opportunities
             for the youth in underrepresented communities.
           </span>
         </span>
       </div>
       <div className="home-investment-criteria">
+      <span className="home-text24" data-aos-duration="2000" data-aos="fade-left">Investment Criteria</span>
         <div className="home-container02">
-          <span className="home-text24" data-aos-duration="2000" data-aos="fade-left">Investment Criteria</span>
           <div className="separator" data-aos="zoom-in-right" style={{ marginBottom: 16 }}></div>
           <div className="industry-container" data-aos="zoom-in" onClick={openInfo("industry")}>
             {/* <div className="home-container04"> */}
