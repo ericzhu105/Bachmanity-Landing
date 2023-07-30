@@ -41,7 +41,9 @@ const Kris = (props) => {
             <Link to="/portfolio" className="navlink2 textUnderline">
               Portfolio
             </Link>
-            <span className="text01 textUnderline">Pitch Us</span>
+            <a href="https://www.joinaviato.com/bachmanity" className="navlink2 textUnderline">
+              Pitch Us
+            </a>
           </nav>
         </div>
         <div className="mobile-burger-menu">
@@ -63,7 +65,9 @@ const Kris = (props) => {
               <Link to="/" className="mobile-text02">Home</Link>
               <Link to="/team" className="mobile-text03">Team</Link>
               <Link to="/portfolio" className="mobile-text04">Portoflio</Link>
-              <span className="mobile-text05">Pitch Us</span>
+              <a href="https://www.joinaviato.com/bachmanity" className="mobile-text05">
+              Pitch Us
+            </a>
             </nav>
           </div>
           <div>
@@ -147,7 +151,7 @@ const Kris = (props) => {
                 <span className="footer-text84">
                   <a href="/team">Team</a>
                 </span>
-                <span className="footer-text85">Contact</span>
+                <span className="footer-text85"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
               </div>
               <div className="footer-company-container" style={{marginRight: 0}}>
               <span className="footer-text86">Terms of Service</span>

@@ -38,7 +38,9 @@ const Portfolio = (props) => {
             <Link to="/portfolio" className="navlink2">
               Portfolio
             </Link>
-            <span className="portfolio-text01 textUnderline">Pitch Us</span>
+            <a href="https://www.joinaviato.com/bachmanity" className="navlink2 textUnderline">
+              Pitch Us
+            </a>
           </nav>
         </div>
         <div className="mobile-burger-menu">
@@ -60,7 +62,9 @@ const Portfolio = (props) => {
               <Link to="/" className="mobile-text02">Home</Link>
               <Link to="/team" className="mobile-text03">Team</Link>
               <Link to="/portfolio" className="mobile-text04">Portoflio</Link>
-              <span className="mobile-text05">Pitch Us</span>
+              <a href="https://www.joinaviato.com/bachmanity" className="mobile-text05">
+              Pitch Us
+            </a>
             </nav>
           </div>
           <div>
@@ -153,7 +157,7 @@ const Portfolio = (props) => {
               <div className="portfolio-company-container">
                 <span className="portfolio-text29"><a href='/portfolio'>Portfolio</a></span>
                 <span className="portfolio-text30"><a href='/team'>Team</a></span>
-                <span className="portfolio-text31">Contact</span>
+                <span className="portfolio-text31"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
               </div>
               <div className="portfolio-company-container" style={{marginRight: 0}}>
               <span className="portfolio-text32">Terms of Service</span>

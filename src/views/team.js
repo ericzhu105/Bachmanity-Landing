@@ -39,7 +39,9 @@ const Team = (props) => {
             <Link to="/portfolio" className="navlink2 textUnderline">
               Portfolio
             </Link>
-            <span className="team-text01 textUnderline">Pitch Us</span>
+            <a href="https://www.joinaviato.com/bachmanity" className="navlink2 textUnderline">
+              Pitch Us
+            </a>
           </nav>
         </div>
         <div className="mobile-burger-menu">
@@ -61,7 +63,9 @@ const Team = (props) => {
               <Link to="/" className="mobile-text02">Home</Link>
               <Link to="/team" className="mobile-text03">Team</Link>
               <Link to="/portfolio" className="mobile-text04">Portoflio</Link>
-              <span className="mobile-text05">Pitch Us</span>
+              <a href="https://www.joinaviato.com/bachmanity" className="mobile-text05">
+              Pitch Us
+            </a>
             </nav>
           </div>
           <div>
@@ -189,7 +193,7 @@ const Team = (props) => {
               <div className="team-company-container">
                 <span className="team-text37"><a href='/portfolio'>Portfolio</a></span>
                 <span className="team-text38"><a href='/team'>Team</a></span>
-                <span className="team-text39">Contact</span>
+                <span className="team-text39"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
               </div>
               <div className="team-company-container" style={{marginRight: 0}}>
               <span className="team-text40">Terms of Service</span>
