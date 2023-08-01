@@ -151,8 +151,8 @@ const Home = (props) => {
           </span>
         </span>
         <div data-aos="zoom-in" data-aos-duration="750" className="home-btn-group">
-          <a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'><button className="home-button button">Get In Touch <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></a>
-          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></Link>
+          <a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'><button className="home-button button">Get In Touch <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></a>
+          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
       </div>
       <div style={{ width: "100%", height: "100%" }}><img
@@ -174,7 +174,7 @@ const Home = (props) => {
             distinguished investors, esteemed universities, celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving</div>
-          <Link to="/team"><button  data-aos-duration="2000" data-aos="fade-right" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg></button></Link>
+          <Link to="/team"><button  data-aos-duration="2000" data-aos="fade-right" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
         <span data-aos-duration="2000" data-aos="fade-left" className="home-text20">
           <span>
