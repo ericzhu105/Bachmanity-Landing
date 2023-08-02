@@ -18,7 +18,7 @@ const Elam = (props) => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
 
-  AOS.init({duration: 2000, once: true})
+  AOS.init({duration: 1000, once: true})
 
   return (
     <div className="container">
@@ -83,25 +83,25 @@ const Elam = (props) => {
           </div>
         </div>
       </header>
-      <div className="elam-container" data-aos="fade-up">
-        <div className='elam-titles' data-aos="fade-up">
-          <div className='elam-titles01' data-aos="fade-up">
+      <div className="elam-container" data-aos="move">
+        <div className='elam-titles' data-aos="move">
+          <div className='elam-titles01' data-aos="move">
             <span className="elam-text01">Christian Elam</span>
             <span className='hidden-text-elam'>Founding General Partner</span>
-            <div className="socials" data-aos="fade-up">
+            <div className="socials" data-aos="move">
               <a href='https://twitter.com/ChristianElam6'><img src={"/twitter.svg"} className="home-twitter" alt="twitter" /></a>
               <a href='https://www.linkedin.com/in/christian-elam-4b0a471a8/'><img src={"/link.svg"} className="home-link" alt="link" /></a>
             </div>
           </div>
           <img src={"/elam-large.png"} className="elam-pic" />
         </div>
-        <div className="elam-titles" data-aos="fade-up">
+        <div className="elam-titles" data-aos="move">
           <span className="elam-texts01">Founding General Partner</span>
           <span className="elam-texts02">Christian is a 20 year old serial entrepreneur and investor. He is the youngest ever alumni from the COBE program at UC Berkeley-Haas School of Business, and graduated this summer from Cornell for business strategy. He was a self taught programmer and started launching apps on the App Store at 14, one of which reached the Top Charts within eight hours. Christian decided to cofound a couple himself in the social & e-commerce space. His curiosity for investing led Christian to teach himself to become a successful day trader in high school, as well as an angel investor and VC at Sutton Capital and investor with Gaingels. Christian has advised many startups and accelerators across various industries. On a personal note, Christian is very active in the mental health space and leading several congressional efforts for mental health and youth entrepreneurship. </span>
         </div>
       </div>
-      <div className="get-updates" data-aos="fade-up">
-        <div className="get-updates-container" data-aos="fade-up">
+      <div className="get-updates" data-aos="move">
+        <div className="get-updates-container" data-aos="move">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
           We occasionally send updates about our portfolio companies, where we are, and what we're up to. Join our list below. You can expect an email about once every quarter!

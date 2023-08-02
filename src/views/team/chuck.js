@@ -18,7 +18,7 @@ const Chuck = (props) => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
 
-  AOS.init({duration: 2000, once: true})
+  AOS.init({duration: 1000, once: true})
 
   return (
     <div className="container">
@@ -83,9 +83,9 @@ const Chuck = (props) => {
           </div>
         </div>
       </header>
-      <div className="chuck-container"  data-aos="fade-up">
-        <div className='chuck-titles'  data-aos="fade-up">
-          <div className='chuck-titles01'  data-aos="fade-up">
+      <div className="chuck-container"  data-aos="move">
+        <div className='chuck-titles'  data-aos="move">
+          <div className='chuck-titles01'  data-aos="move">
             <span className="chuck-text01">Chuck Figueroa</span>
             <span className='hidden-text-chuck'>Partner</span>
             <div className="socials" >
@@ -95,13 +95,13 @@ const Chuck = (props) => {
           </div>
           <img src={"/chuck-large.png"} className="chuck-pic" />
         </div>
-        <div className="chuck-titles"  data-aos="fade-up">
+        <div className="chuck-titles"  data-aos="move">
           <span className="chuck-texts01">Partner</span>
           <span className="chuck-texts02">Chuck is a corporate strategist, sports endorsement agent and angel investor. He received his BA from the University of California, Los Angeles. He began his career in Public Relations which led him into the sports industry and has executed global partnerships with the elite NBA,NFL and Olympic athletes. Chuck currently sits on the board and advises a global ecosystem in media, technology and venture capital at the intersection of innovation and legacy.</span>
         </div>
       </div>
-      <div className="get-updates"  data-aos="fade-up">
-        <div className="get-updates-container"  data-aos="fade-up">
+      <div className="get-updates"  data-aos="move">
+        <div className="get-updates-container"  data-aos="move">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
           We occasionally send updates about our portfolio companies, where we are, and what we're up to. Join our list below. You can expect an email about once every quarter!

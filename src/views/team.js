@@ -18,7 +18,7 @@ const Team = (props) => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
 
-  AOS.init({duration: 2000, once: true})
+  AOS.init({duration: 1000, once: true})
 
   return (
     <div className="team-container">
@@ -81,14 +81,14 @@ const Team = (props) => {
           </div>
         </div>
       </header>
-      <div className="team-container01" data-aos="fade-up">
+      <div className="team-container01" data-aos="fade-in">
         <h1 className="team-text07">Our Partners</h1>
         <span className="team-text08">
           Founded by Two Gen Z Operators, Technical Founders, and Angel
           Investors
         </span>
       </div>
-      <div className="team" data-aos="fade-up">
+      <div className="team" data-aos="fade-in">
         <div className="team-separator"></div>
         <div className="team-elam" id="team-elam">
           <div className="team-container03">
@@ -130,8 +130,8 @@ const Team = (props) => {
           <Link to="/investors/Kristin-Stueben" className="kris-arrow"><img src={"/arrow-right.svg"}></img></Link>
         </div>
       </div>
-      <div className="get-updates" data-aos="fade-up">
-        <div className="get-updates-container" data-aos="fade-up">
+      <div className="get-updates" data-aos="fade-in">
+        <div className="get-updates-container" data-aos="fade-in">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
               We occasionally send updates about our portfolio companies,

@@ -60,7 +60,7 @@ const Home = (props) => {
   };
 
 
-  AOS.init({ duration: 1750, once: true, easing: 'ease-in-out' })
+  AOS.init({ duration: 750, once: true, easing: 'ease-in-out' })
 
   return (
     <div className="home-container">
@@ -124,14 +124,14 @@ const Home = (props) => {
         </div>
       </header>
       <div className="home-banner">
-        <h1 className="home-text07" data-aos="zoom-in" data-aos-duration="750">
+        <h1 className="home-text07" data-aos="move">
           Empowering entrepreneurs to<br></br>
 
           build technology that transforms<br></br>
 
           industries<br></br>
         </h1>
-        <span data-aos="zoom-in" data-aos-duration="750" className="home-text13">
+        <span data-aos="move" className="home-text13">
           <span>
             An early stage fund created by Gen Z operators &amp; seasoned
             veterans to support innovation, and to empower the next generations
@@ -150,7 +150,7 @@ const Home = (props) => {
             />
           </span>
         </span>
-        <div data-aos="zoom-in" data-aos-duration="750" className="home-btn-group">
+        <div data-aos="move" className="home-btn-group">
           <a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'><button className="home-button button">Get In Touch <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></a>
           <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
@@ -162,21 +162,21 @@ const Home = (props) => {
       /></div>
       <div className="home-who-we-are">
         <div className="home-container01">
-          <span className="home-text16"  data-aos-duration="2000" data-aos="fade-right">
+          <span className="home-text16" data-aos="move" data-aos-anchor=".home-investment-criteria">
             <span>Who We Are</span>
             <br></br>
             <br></br>
           </span>
-          <div className="home-text17" data-aos-duration="2000" data-aos="fade-left">Bachmanity Capital is a Seed &amp; Series A focused generalist fund
+          <div className="home-text17" data-aos="move" data-aos-anchor=".home-investment-criteria">Bachmanity Capital is a Seed &amp; Series A focused generalist fund
             focusing on exciting opportunities with established brands that have
             a proven track record of pushing the limits of innovation and
             achieving success. We leverage our massive A-list network of other
             distinguished investors, esteemed universities, celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving celebrities/pro-athletes, influential members of Congress. By
             fostering a thriving</div>
-          <Link to="/team"><button  data-aos-duration="2000" data-aos="fade-right" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
+          <Link to="/team"><button data-aos="move" data-aos-anchor=".home-investment-criteria" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
-        <span data-aos-duration="2000" data-aos="fade-left" className="home-text20">
+        <span data-aos="move" className="home-text20" data-aos-anchor=".home-investment-criteria">
           <span>
             Bachmanity Capital is a Seed &amp; Series A focused generalist fund
             focusing on<br></br>exciting opportunities with established brands that have
@@ -196,10 +196,10 @@ const Home = (props) => {
         </span>
       </div>
       <div className="home-investment-criteria">
-      <span className="home-text24" data-aos-duration="2000" data-aos="fade-left">Investment Criteria</span>
+      <span className="home-text24" data-aos="fade-left">Investment Criteria</span>
         <div className="home-container02">
-          <div className="separator" data-aos="zoom-in-right" style={{ marginBottom: 16 }}></div>
-          <div className="industry-container" data-aos="zoom-in" onClick={openInfo("industry")}>
+          <div className="separator" data-aos="fade-in-right" style={{ marginBottom: 16 }}></div>
+          <div className="industry-container"  data-aos-delay="200"  data-aos="zoom-in" onClick={openInfo("industry")} data-aos-anchor=".home-our-investments">
             {/* <div className="home-container04"> */}
             <div className="home-container05">
               <span className="home-text25">01</span>
@@ -213,8 +213,8 @@ const Home = (props) => {
               We’re a generalist fund with past experience investing in Deep Tech, Space, B2B, Fintech, Consumer, AI, Prop Tech, Mental Health, and Entertainment
             </span>
           </div>
-          <div className="separator" data-aos="zoom-in-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
-          <div className="stage-container" data-aos="zoom-in" onClick={openInfo("stage")}>
+          <div className="separator" data-aos="fade-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
+          <div className="stage-container" data-aos-delay="300" data-aos="zoom-in" onClick={openInfo("stage")} data-aos-anchor=".home-our-investments">
             {/* <div className="home-container07"> */}
             <div className="home-container08">
               <span className="home-text28">02</span>
@@ -228,8 +228,8 @@ const Home = (props) => {
               Our focus is Seed & Series A companies that have shown promising growth and traction in the market. We are also allocation 25% to later stage companies that have a proven track record of pushing the limits of innovation and achieving success
             </span>
           </div>
-          <div className="separator" data-aos="zoom-in-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
-          <div className="team-exp-container" data-aos="zoom-in" onClick={openInfo("team")}>
+          <div className="separator" data-aos="fade-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
+          <div className="team-exp-container" data-aos-delay="400" data-aos="zoom-in" onClick={openInfo("team")} data-aos-anchor=".home-our-investments">
             {/* <div className="inv-criteria-container"> */}
             <div className="home-container11">
               <span className="home-text31">03</span>
@@ -257,45 +257,45 @@ const Home = (props) => {
             We invest in entrepreneurs who facilitate product-led growth, who
             have specific insights and passions that equip them to solve problems.
           </span>
-          <div className="invest-separator" data-aos="zoom-in-left"></div>
-          <div className="home-container17" data-aos="zoom-in">
-            <span className="home-text40" data-aos="zoom-in">Fund Size</span>
-            <span className="home-text41" data-aos="zoom-in">$20M</span>
+          <div className="invest-separator" data-aos="fade-left"></div>
+          <div className="home-container17" data-aos="zoom-in" data-aos-anchor=".home-how-we-add-value" data-aos-delay="200">
+            <span className="home-text40">Fund Size</span>
+            <span className="home-text41">$20M</span>
           </div>
-          <div className="invest-separator" data-aos="zoom-in-left"></div>
-          <div className="home-container20" data-aos="zoom-in">
-            <span className="home-text42" data-aos="zoom-in">Companies</span>
-            <span className="home-text43" data-aos="zoom-in">06</span>
+          <div className="invest-separator" data-aos="fade-left"></div>
+          <div className="home-container20" data-aos="zoom-in" data-aos-anchor=".home-how-we-add-value" data-aos-delay="300">
+            <span className="home-text42">Companies</span>
+            <span className="home-text43">06</span>
           </div>
-          <div className="invest-separator" data-aos="zoom-in-left"></div>
-          <div className="home-container23" data-aos="zoom-in">
-            <span className="home-text44" data-aos="zoom-in">Average Check Size</span>
-            <span className="home-text45" data-aos="zoom-in">$250K</span>
+          <div className="invest-separator" data-aos="fade-left"></div>
+          <div className="home-container23" data-aos="zoom-in" data-aos-anchor=".home-how-we-add-value" data-aos-delay="400">
+            <span className="home-text44">Average Check Size</span>
+            <span className="home-text45">$250K</span>
           </div>
         </div>
       </div>
-      <div className="home-how-we-add-value" data-aos="zoom-in">
-        <div className="home-container25" data-aos="zoom-in">
-          <div className="home-container26" data-aos="zoom-in">
-            <span className="home-text46" data-aos="zoom-in">
+      <div className="home-how-we-add-value">
+        <div className="home-container25" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="50">
+          <div className="home-container26">
+            <span className="home-text46">
               How We Add
               Value™
             </span>
           </div>
-          <span className="home-text50" data-aos="zoom-in">
+          <span className="home-text50" >
             Our backgrounds as developers, operators, and founders fuel our
             obsession with adding real value. We empower ambitious people via
             capital.
           </span>
         </div>
-        <div className="separator how-we-add-val" data-aos="zoom-in-left"></div>
-        <div className="home-container27" data-aos="zoom-in">
+        <div className="separator how-we-add-val" data-aos="fade-left"></div>
+        <div className="home-container27" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="100">
           <div className="home-container28">
             <span className="home-text51">
               Background<sup>01</sup>
             </span>
           </div>
-          <span className="home-text54" data-aos="zoom-in">
+          <span className="home-text54">
             We love founders. As developers, operators, and founders ourselves,
             we&apos;re empathetic to founder&apos;s needs, and appreciative of
             their visions. As young builders, we&apos;re active in communities
@@ -303,10 +303,10 @@ const Home = (props) => {
             key insights, great deals, and a massive competitive edge.
           </span>
         </div>
-        <div className="separator" data-aos="zoom-in-left"></div>
-        <div className="home-container29" data-aos="zoom-in">
-          <div className="home-container30" data-aos="zoom-in">
-            <span className="home-text55" data-aos="zoom-in">
+        <div className="separator" data-aos="fade-left"></div>
+        <div className="home-container29" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="150">
+          <div className="home-container30">
+            <span className="home-text55">
               Network<sup>02</sup>
             </span>
           </div>
@@ -319,10 +319,10 @@ const Home = (props) => {
             subject matter expertise.
           </span>
         </div>
-        <div className="separator" data-aos="zoom-in-left"></div>
-        <div className="home-container31" data-aos="zoom-in">
-          <div className="home-container32" data-aos="zoom-in">
-            <span className="home-text59" data-aos="zoom-in">
+        <div className="separator" data-aos="fade-left"></div>
+        <div className="home-container31" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="200">
+          <div className="home-container32">
+            <span className="home-text59">
               Ecosystem<sup>03</sup>
             </span>
           </div>
@@ -337,7 +337,7 @@ const Home = (props) => {
           </span>
         </div>
       </div>
-      <div className="get-updates" data-aos-duration="2000" data-aos="fade-up">
+      <div className="get-updates" data-aos-duration="2000" data-aos="fade-in">
         <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
