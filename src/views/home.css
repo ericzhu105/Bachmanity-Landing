@@ -164,18 +164,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 
-.mobile-text06 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-
-.mobile-buttons {
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .mobile-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
@@ -257,7 +245,7 @@
   flex-direction: column;
   justify-content: center;
   padding-bottom: 3rem;
-  transition: 3s ease-in-out all;
+  transition: 0.3s height ease;
 }
 
 .home-text24 {
@@ -272,11 +260,7 @@
   flex-direction: column;
   justify-content: center;
   height: fit-content;
-  transition: 3s ease-in-out all;
-}
-
-.home-container02::before {
-  flex: 1;
+  transition: 0.3s height ease;
 }
 
 .separator {
@@ -322,7 +306,7 @@
 
 .home-container08 {
   flex: 0 0 auto;
-  width: 449px;
+  width: 431px;
   height: 71px;
   display: flex;
   align-items: flex-start;
@@ -345,12 +329,12 @@
 
 .arrow {
   font-size: 60px;
-  transition: 1s ease-in-out all;
+  transition: 0.3s linear;
 }
 
 .home-container11 {
   flex: 0 0 auto;
-  width: 769px;
+  width: 758px;
   height: 71px;
   display: flex;
   align-items: flex-start;
@@ -368,19 +352,21 @@
 .team-exp-text,
 .stage-text,
 .industry-text {
-  display: none;
+  display: flex;
   width: 589px;
-  height: fit-content;
+  max-height: 0;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-  margin-right: 60px;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.3s ease, max-height 0.1s ease;
+  margin-left: 1rem;
+  opacity: 0;
 }
 
 .home-text33 {
   font-size: 16px;
   margin-left: var(--dl-space-space-unit);
+  
 }
 
 .home-our-investments {
@@ -1108,6 +1094,7 @@ sup {
   .industry-text {
     width: 100% !important;
     margin: 0;
+    padding-top: 1rem;
   }
 
 

@@ -83,9 +83,9 @@ const Kris = (props) => {
           </div>
         </div>
       </header>
-      <div className="kris-container" data-aos="move">
-        <div className='kris-titles' data-aos="move">
-          <div className='kris-titles01' data-aos="move">
+      <div className="kris-container" data-aos="fade-up">
+        <div className='kris-titles' data-aos="fade-up">
+          <div className='kris-titles01' data-aos="fade-up">
             <span className="kris-text01">Kristin Stueben</span>
             <span className='hidden-text-kris'>Partner</span>
             <div className="socials">
@@ -95,13 +95,13 @@ const Kris = (props) => {
           </div>
           <img src={"/kris-large.png"} className="kris-pic" />
         </div>
-        <div className="kris-titles" data-aos="move">
+        <div className="kris-titles" data-aos="fade-up">
           <span className="kris-texts01">Partner</span>
           <span className="kris-texts02">Kristin is a serial entrepreneur, angel investor, creative director, and influencer. She cofounded Maxus Nails, a very successful proprietary nail product winning the Allure Beauty Award, also featured in Vogue, InStyle, ELLE, Cosmopolitan, and more. She also cofounded Cerebral Agency focusing on celebrity endorsements, tech, and venture capital. Kristin is also on the advisory board of We Empower Women.</span>
         </div>
       </div>
-      <div className="get-updates" data-aos="move">
-        <div className="get-updates-container" data-aos="move">
+      <div className="get-updates">
+        <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
           We occasionally send updates about our portfolio companies, where we are, and what we're up to. Join our list below. You can expect an email about once every quarter!

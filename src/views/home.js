@@ -20,38 +20,42 @@ const Home = (props) => {
 
   const toggleElement = (selector, show) => {
     const element = document.querySelector(selector);
-    element.style.animation = `fade-${show ? 'in' : 'out'} 2s ease-in-out`;
-    element.style.display = show ? 'flex' : 'none';
+    if (element) {
+      // element.style.display = show ? 'flex' : 'none';
+      element.style.opacity = show ? 1 : 0;
+      element.style.maxHeight = show ? '100%' : '0';
+    }
   };
-
+  
   const toggleArrow = (selector, rotate) => {
-    document.querySelector(selector).style.transform = `rotate(${rotate}deg)`;
+    const arrow = document.querySelector(selector);
+    if (arrow) {
+      arrow.style.transform = `rotate(${rotate}deg)`;
+    }
   };
-
+  
   const openInfo = (type) => {
     let activeType = null;
-
+    const infoElements = {
+      industry: ['.industry-text', '.industry-arrow'],
+      stage: ['.stage-text', '.stage-arrow'],
+      team: ['.team-exp-text', '.team-arrow']
+    };
+  
+    const resetAllElements = () => {
+      Object.values(infoElements).forEach(([textSelector, arrowSelector]) => {
+        toggleElement(textSelector, false);
+        toggleArrow(arrowSelector, 0);
+      });
+      activeType = null;
+    };
+  
     return () => {
-      const infoElements = {
-        industry: '.industry-text .industry-arrow',
-        stage: '.stage-text .stage-arrow',
-        team: '.team-exp-text .team-arrow'
-      };
-
-      const resetAllElements = () => {
-        Object.values(infoElements).forEach((selectors) => {
-          const [textSelector, arrowSelector] = selectors.split(' ');
-          toggleElement(textSelector, false);
-          toggleArrow(arrowSelector, 0);
-        });
-        activeType = null;
-      };
-
       if (activeType === type) {
         resetAllElements();
       } else {
         resetAllElements();
-        const [textSelector, arrowSelector] = infoElements[type].split(' ');
+        const [textSelector, arrowSelector] = infoElements[type];
         toggleElement(textSelector, true);
         toggleArrow(arrowSelector, 180);
         activeType = type;
@@ -238,7 +242,7 @@ const Home = (props) => {
             <span className="arrow team-arrow">↓</span>
             {/* </div> */}
           </div>
-          <div className="team-exp-text" style={{ marginBottom: 60 }}>
+          <div className="team-exp-text">
             <span className="home-text33">
               Founding team must be comprised of ambitious operators with
               first hand experience building and scaling in their industry.
@@ -275,7 +279,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-how-we-add-value">
-        <div className="home-container25" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="50">
+        <div className="home-container25" data-aos="zoom-in">
           <div className="home-container26">
             <span className="home-text46">
               How We Add
@@ -289,7 +293,7 @@ const Home = (props) => {
           </span>
         </div>
         <div className="separator how-we-add-val" data-aos="fade-left"></div>
-        <div className="home-container27" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="100">
+        <div className="home-container27" data-aos="zoom-in" data-aos-delay="800">
           <div className="home-container28">
             <span className="home-text51">
               Background<sup>01</sup>
@@ -304,7 +308,7 @@ const Home = (props) => {
           </span>
         </div>
         <div className="separator" data-aos="fade-left"></div>
-        <div className="home-container29" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="150">
+        <div className="home-container29" data-aos="zoom-in" data-aos-delay="1600">
           <div className="home-container30">
             <span className="home-text55">
               Network<sup>02</sup>
@@ -320,7 +324,7 @@ const Home = (props) => {
           </span>
         </div>
         <div className="separator" data-aos="fade-left"></div>
-        <div className="home-container31" data-aos="zoom-in" data-aos-anchor=".get-updates" data-aos-delay="200">
+        <div className="home-container31" data-aos="zoom-in" data-aos-delay="2400">
           <div className="home-container32">
             <span className="home-text59">
               Ecosystem<sup>03</sup>
@@ -337,7 +341,7 @@ const Home = (props) => {
           </span>
         </div>
       </div>
-      <div className="get-updates" data-aos-duration="2000" data-aos="fade-in">
+      <div className="get-updates">
         <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
@@ -346,7 +350,7 @@ const Home = (props) => {
             can expect an email about once every quarter!
           </span>
         </div>
-        <div className='get-input' data-aos="zoom-in">
+        <div className='get-input'>
           <input
             type="text"
             id="email"

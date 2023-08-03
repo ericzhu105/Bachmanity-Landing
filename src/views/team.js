@@ -90,48 +90,56 @@ const Team = (props) => {
       </div>
       <div className="team" data-aos="fade-in">
         <div className="team-separator"></div>
-        <div className="team-elam" id="team-elam">
+       <a href="/investors/Christian-Elam">
+        <div className="team-elam" id="team-elam" href="/investors/Christian-Elam">
           <div className="team-container03">
             <span className="elam-text01">Christian Elam</span>
             <span className="elam-hide">FOUNDING GENERAL PARTNER</span>
           </div>
-          <Link to="/investors/christian-elam" className='elam-image'><img src={"/elam.png"} alt="image" id="elam-image"/></Link>
+            <img src={"/elam.png"}  className='elam-image' alt="image" id="elam-image"/>
           <span className="elam-text02">FOUNDING GENERAL PARTNER</span>
-          <Link to="/investors/christian-elam" className="elam-arrow"><img src={"/arrow-right.svg"}></img></Link>
+            <img className='elam-arrow' src={"/arrow-right.svg"}></img>
         </div>
+        </a>
         <div className="team-separator"></div>
-        <div className="team-eric">
+        <a href="/investors/eric-zhu">
+          <div className="team-eric">
           <div className="team-container05">
             <span className="eric-text01">Eric Zhu</span>
             <span className="eric-hide">GENERAL PARTNER</span>
           </div>
-          <Link to="/investors/eric-zhu" className='eric-image'><img src={"/eric.png"} alt="image" id="eric-image"/></Link>
+              <img src={"/eric.png"} alt="image" id="eric-image" className='eric-image'/>
           <span className="eric-text02">GENERAL PARTNER</span>
-          <Link to="/investors/eric-zhu" className="eric-arrow"><img src={"/arrow-right.svg"}></img></Link>
+          <img src={"/arrow-right.svg"} className='eric-arrow'></img>
         </div>
+        </a>
         <div className="team-separator"></div>
+        <a href="/investors/chuck-Figueroa">
         <div className="team-chuck">
           <div className="team-container07">
             <span className="chuck-text01">Chuck Figueroa</span>
             <span className="chuck-hide">PARTNER</span>
           </div>
-          <Link to="/investors/chuck-Figueroa" className='chuck-image'><img src={"/chuck.png"} alt="image" id="chuck-image"/></Link>
+            <img src={"/chuck.png"} className='chuck-image' alt="image" id="chuck-image"/>
           <span className="chuck-text02">PARTNER</span>
-          <Link to="/investors/chuck-Figueroa" className="chuck-arrow"><img src={"/arrow-right.svg"}></img></Link>
+            <img src={"/arrow-right.svg"} className="chuck-arrow"></img>
         </div>
+        </a>
         <div className="team-separator"></div>
+        <a href="/investors/Kristin-Stueben">
         <div className="team-kris">
           <div className="team-container09">
             <span className="kris-text01">Kristin Stueben</span>
             <span className="kris-hide">PARTNER</span>
           </div>
-          <Link to="/investors/Kristin-Stueben" className='kris-image'><img src={"/kris.png"} alt="image" id="kris-image" /></Link>
+            <img src={"/kris.png"}  className='kris-image' alt="image" id="kris-image" />
           <span className="kris-text02">PARTNER</span>
-          <Link to="/investors/Kristin-Stueben" className="kris-arrow"><img src={"/arrow-right.svg"}></img></Link>
+            <img src={"/arrow-right.svg"} className="kris-arrow"></img>
         </div>
+        </a>
       </div>
-      <div className="get-updates" data-aos="fade-in">
-        <div className="get-updates-container" data-aos="fade-in">
+      <div className="get-updates">
+        <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
               We occasionally send updates about our portfolio companies,

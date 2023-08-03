@@ -94,8 +94,8 @@ const Portfolio = (props) => {
         <div className="grid-item"><a href='https://juneshine.com/' target='_blank'><img className="june" src={"/june.svg"} alt="image"/></a></div>
         <div className="grid-item"><a href='https://rentberry.com/' target='_blank'><img src={"/rentberry.svg"} alt="image"/></a></div>
       </div>
-      <div className="get-updates" data-aos="fade-in">
-        <div className="get-updates-container" data-aos="fade-in">
+      <div className="get-updates">
+        <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
             We occasionally send updates about our portfolio companies,

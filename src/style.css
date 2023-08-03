@@ -63,15 +63,11 @@
   border: none;
   width: 100%;
 }
-.textarea {
-  color: var(--dl-color-gray-black);
-  cursor: auto;
-  padding: 0.5rem;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+.input:focus {
+  outline: none;
 }
+
+
 .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
@@ -274,7 +270,7 @@
 
 .get-input {
   margin: 0;
-  padding-top: 3rem;
-  padding-left: 1rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 }
