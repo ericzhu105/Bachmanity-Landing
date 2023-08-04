@@ -60,7 +60,7 @@
   margin-left: var(--dl-space-space-twounits);
   margin-right: var(--dl-space-space-twounits);
   justify-content: space-between;
-  transition: 0.7s;
+  transition: 0.7s ease-in-out all;
 }
 .elam-image {
   position: relative;
@@ -127,7 +127,7 @@
   margin-left: var(--dl-space-space-twounits);
   margin-right: var(--dl-space-space-twounits);
   justify-content: space-between;
-  transition: 0.7s;
+  transition: 0.7s ease-in-out all;
 }
 .eric-image {
   position: relative;
@@ -191,7 +191,7 @@
   margin-left: var(--dl-space-space-twounits);
   margin-right: var(--dl-space-space-twounits);
   justify-content: space-between;
-  transition: 0.7s;
+  transition: 0.7s ease-in-out all;
 }
 .chuck-image {
   position: relative;
@@ -255,7 +255,7 @@
   margin-left: var(--dl-space-space-twounits);
   margin-right: var(--dl-space-space-twounits);
   justify-content: space-between;
-  transition: 0.7s;
+  transition: 0.7s ease-in-out all;
 }
 .team-container09 {
   flex: 0 0 auto;
