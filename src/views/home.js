@@ -1,14 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
-import { Helmet } from 'react-helmet'
-
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-
-import './home.css'
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import './home.css';
 
 const Home = (props) => {
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    window.onload = () => {
+      setIsLoaded(true);
+      AOS.init({ duration: 750, once: true, easing: 'ease-in-out' });
+    };
+  }, []);
 
   const showBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'flex'
@@ -63,11 +69,8 @@ const Home = (props) => {
     };
   };
 
-
-  AOS.init({ duration: 750, once: true, easing: 'ease-in-out' })
-
   return (
-    <div className="home-container">
+    <div className={`home-container ${isLoaded ? 'loaded' : ''}`}>
       <Helmet>
         <title>Bachmanity Capital</title>
         <meta property="og:title" content="BachmanityCapital" />
@@ -324,7 +327,7 @@ const Home = (props) => {
           </span>
         </div>
         <div className="separator" data-aos="fade-left"></div>
-        <div className="home-container31" data-aos="zoom-in" data-aos-delay="2400">
+        <div className="home-container31" data-aos="zoom-in" data-aos-delay="2000">
           <div className="home-container32">
             <span className="home-text59">
               Ecosystem<sup>03</sup>
