@@ -18,7 +18,7 @@ const Team = (props) => {
     document.querySelector('.mobile-menu').style.display = 'none'
   }
 
-  AOS.init({duration: 1000, once: true})
+  AOS.init({ duration: 1000, once: true })
 
   return (
     <div className="team-container">
@@ -64,8 +64,8 @@ const Team = (props) => {
               <Link to="/team" className="mobile-text03">Team</Link>
               <Link to="/portfolio" className="mobile-text04">Portoflio</Link>
               <a href="https://www.joinaviato.com/bachmanity" className="mobile-text05">
-              Pitch Us
-            </a>
+                Pitch Us
+              </a>
             </nav>
           </div>
           <div>
@@ -88,9 +88,11 @@ const Team = (props) => {
           Investors
         </span>
       </div>
+
+      <div className='holder'>
+      <div className="team-separator"></div>
       <div className="team" data-aos="fade-in">
-        <div className="team-separator"></div>
-       <a href="/investors/Christian-Elam">
+        {/* <a href="/investors/Christian-Elam">
         <div className="team-elam" id="team-elam" href="/investors/Christian-Elam">
           <div className="team-container03">
             <span className="elam-text01">Christian Elam</span>
@@ -136,26 +138,45 @@ const Team = (props) => {
           <span className="kris-text02">PARTNER</span>
             <img src={"/arrow-right.svg"} className="kris-arrow"></img>
         </div>
-        </a>
+        </a> */}
+        {/* <div className="team-info-container">
+          <img src={"/elam.svg"} className='team-image' alt="image" />
+          <div className='team-member-info'>
+            <div className='team-member-name'>
+              <span className="team-name">Christian Elam</span>
+              <span className="team-title">Founding General Partner</span>
+            </div>
+            <div className='team-arrow-container'>
+              <svg className="team-arrow" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.41663 16.4295L15.5833 7.26288M15.5833 7.26288H6.41663M15.5833 7.26288V16.4295" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+          </div>
+        </div> */}
+        <TeamMember name="Christian Elam" title="Founding General Partner" image="elam.svg" link="/investors/Christian-Elam" />
+        <TeamMember name="Eric Zhu" title="General Partner" image="eric.svg" link="/investors/eric-zhu" />
+        <TeamMember name="Chuck Figueroa" title="Partner" image="chuck.svg" link="/investors/chuck-Figueroa" />
+        <TeamMember name="Kristin Stueben" title="Partner" image="kris.svg" link="/investors/Kristin-Stueben" />
+      </div>
       </div>
       <div className="get-updates">
         <div className="get-updates-container">
           <span className="sub-text">Get Updates</span>
           <span className="sub-text01">
-              We occasionally send updates about our portfolio companies,
-              where we are, and what we&apos;re up to. Join our list below. You
-              can expect an email about once every quarter!
+            We occasionally send updates about our portfolio companies,
+            where we are, and what we&apos;re up to. Join our list below. You
+            can expect an email about once every quarter!
           </span>
         </div>
         <div className='get-input'>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email Address"
-          className="team-textinput input"
-        />
-        <button className="subscribe">Subscribe</button>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            className="team-textinput input"
+          />
+          <button className="subscribe">Subscribe</button>
         </div>
       </div>
       <footer className="team-footer">
@@ -192,18 +213,18 @@ const Team = (props) => {
               </span>
             </span>
           </div>
-            <div className="team-container12">
-              <div className="team-company-container">
-                <span className="team-text34"><a href='/'>Home</a></span>
-                <span className="team-text35">About</span>
-                <span className="team-text36">Careers</span>
-              </div>
-              <div className="team-company-container">
-                <span className="team-text37"><a href='/portfolio'>Portfolio</a></span>
-                <span className="team-text38"><a href='/team'>Team</a></span>
-                <span className="team-text39"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
-              </div>
-              <div className="team-company-container" style={{marginRight: 0}}>
+          <div className="team-container12">
+            <div className="team-company-container">
+              <span className="team-text34"><a href='/'>Home</a></span>
+              <span className="team-text35">About</span>
+              <span className="team-text36">Careers</span>
+            </div>
+            <div className="team-company-container">
+              <span className="team-text37"><a href='/portfolio'>Portfolio</a></span>
+              <span className="team-text38"><a href='/team'>Team</a></span>
+              <span className="team-text39"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
+            </div>
+            <div className="team-company-container" style={{ marginRight: 0 }}>
               <span className="team-text40">Terms of Service</span>
               <span className="team-text41">
                 <span>Conduct</span>
@@ -211,23 +232,45 @@ const Team = (props) => {
               </span>
               <span className="team-text44">Disclosures</span>
             </div>
-            </div>
+          </div>
         </div>
         <div className="team-separator"></div>
         <div className='page-end'>
           <div>
-        <span className="text-text45">
-          Copyright © 2023 Bachmanity Capital LLC. All rights reserved
-        </span>
-        </div>
-        <div className="team-container13">
-          <a href='https://twitter.com/BachmanityFund'><img src={"/twitter.svg"} className="team-twitter" alt="twitter" /></a>
-          <a href='https://www.linkedin.com/company/bachmanity-capital/'><img src={"/link.svg"} className="team-link" alt="link" /></a>
-        </div>
+            <span className="text-text45">
+              Copyright © 2023 Bachmanity Capital LLC. All rights reserved
+            </span>
+          </div>
+          <div className="team-container13">
+            <a href='https://twitter.com/BachmanityFund'><img src={"/twitter.svg"} className="team-twitter" alt="twitter" /></a>
+            <a href='https://www.linkedin.com/company/bachmanity-capital/'><img src={"/link.svg"} className="team-link" alt="link" /></a>
+          </div>
         </div>
       </footer>
     </div>
   )
 }
+
+const TeamMember = ({ name, title, image, link }) => {
+  return (
+    <div className="team-info-container">
+      <img src={`/${image}`} className='team-image' alt="image" />
+      <div className='team-member-info'>
+        <div className='team-member-name'>
+          <span className="team-name">{name}</span>
+          <span className="team-title">{title}</span>
+        </div>
+        <a href={link}>
+          <div className='team-arrow-container'>
+            <svg className="team-arrow" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.41663 16.4295L15.5833 7.26288M15.5833 7.26288H6.41663M15.5833 7.26288V16.4295" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  )
+}
+
 
 export default Team

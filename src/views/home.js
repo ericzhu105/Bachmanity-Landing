@@ -32,14 +32,14 @@ const Home = (props) => {
       element.style.maxHeight = show ? '100%' : '0';
     }
   };
-  
+
   const toggleArrow = (selector, rotate) => {
     const arrow = document.querySelector(selector);
     if (arrow) {
       arrow.style.transform = `rotate(${rotate}deg)`;
     }
   };
-  
+
   const openInfo = (type) => {
     let activeType = null;
     const infoElements = {
@@ -47,7 +47,7 @@ const Home = (props) => {
       stage: ['.stage-text', '.stage-arrow'],
       team: ['.team-exp-text', '.team-arrow']
     };
-  
+
     const resetAllElements = () => {
       Object.values(infoElements).forEach(([textSelector, arrowSelector]) => {
         toggleElement(textSelector, false);
@@ -55,7 +55,7 @@ const Home = (props) => {
       });
       activeType = null;
     };
-  
+
     return () => {
       if (activeType === type) {
         resetAllElements();
@@ -109,12 +109,12 @@ const Home = (props) => {
               </div>
             </div>
             <nav className="mobile-links1">
-              <Link to="/" className="mobile-text02">Home</Link>
-              <Link to="/team" className="mobile-text03">Team</Link>
-              <Link to="/portfolio" className="mobile-text04">Portoflio</Link>
-              <a href="https://www.joinaviato.com/bachmanity" className="mobile-text05">
-              Pitch Us
-            </a>
+              <Link to="/" className="mobile-text">Home</Link>
+              <Link to="/team" className="mobile-text">Team</Link>
+              <Link to="/portfolio" className="mobile-text">Portoflio</Link>
+              <a href="https://www.joinaviato.com/bachmanity" className="mobile-text">
+                Pitch Us
+              </a>
             </nav>
           </div>
           <div>
@@ -203,10 +203,10 @@ const Home = (props) => {
         </span>
       </div>
       <div className="home-investment-criteria">
-      <span className="home-text24" data-aos="fade-left">Investment Criteria</span>
+        <span className="home-text24" data-aos="fade-left">Investment Criteria</span>
         <div className="home-container02">
           <div className="separator" data-aos="fade-in-right" style={{ marginBottom: 16 }}></div>
-          <div className="industry-container"  data-aos-delay="200"  data-aos="zoom-in" onClick={openInfo("industry")} data-aos-anchor=".home-our-investments">
+          <div className="industry-container" data-aos-delay="200" data-aos="zoom-in" onClick={openInfo("industry")} data-aos-anchor=".home-how-we-add-value">
             {/* <div className="home-container04"> */}
             <div className="home-container05">
               <span className="home-text25">01</span>
@@ -221,7 +221,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="separator" data-aos="fade-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
-          <div className="stage-container" data-aos-delay="300" data-aos="zoom-in" onClick={openInfo("stage")} data-aos-anchor=".home-our-investments">
+          <div className="stage-container" data-aos-delay="300" data-aos="zoom-in" onClick={openInfo("stage")} data-aos-anchor=".home-how-we-add-value">
             {/* <div className="home-container07"> */}
             <div className="home-container08">
               <span className="home-text28">02</span>
@@ -236,7 +236,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="separator" data-aos="fade-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
-          <div className="team-exp-container" data-aos-delay="400" data-aos="zoom-in" onClick={openInfo("team")} data-aos-anchor=".home-our-investments">
+          <div className="team-exp-container" data-aos-delay="400" data-aos="zoom-in" onClick={openInfo("team")} data-aos-anchor=".home-how-we-add-value">
             {/* <div className="inv-criteria-container"> */}
             <div className="home-container11">
               <span className="home-text31">03</span>
@@ -257,7 +257,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-our-investments">
+      {/* <div className="home-our-investments">
         <div className="home-container15">
           <span className="home-text35" data-aos-duration="2000" data-aos="fade-right">Our Investments</span>
           <span className="home-text36" data-aos-duration="2000" data-aos="fade-right">
@@ -280,68 +280,70 @@ const Home = (props) => {
             <span className="home-text45">$250K</span>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="home-how-we-add-value">
-        <div className="home-container25" data-aos="zoom-in">
-          <div className="home-container26">
-            <span className="home-text46">
-              How We Add
-              Value™
+        <div className='home-container15'>
+          <div className="home-container25" data-aos="zoom-in">
+            <div className="home-container26">
+              <span className="home-text46">
+                How We Add
+                Value™
+              </span>
+            </div>
+            <span className="home-text50" >
+              Our backgrounds as developers, operators, and founders fuel our
+              obsession with adding real value. We empower ambitious people via
+              capital.
             </span>
           </div>
-          <span className="home-text50" >
-            Our backgrounds as developers, operators, and founders fuel our
-            obsession with adding real value. We empower ambitious people via
-            capital.
-          </span>
-        </div>
-        <div className="separator how-we-add-val" data-aos="fade-left"></div>
-        <div className="home-container27" data-aos="zoom-in" data-aos-delay="800">
-          <div className="home-container28">
-            <span className="home-text51">
-              Background<sup>01</sup>
+          <div className="separator how-we-add-val" data-aos="fade-left"></div>
+          <div className="home-container27" data-aos="zoom-in" data-aos-delay="800">
+            <div className="home-container28">
+              <span className="home-text51">
+                Background<sup>01</sup>
+              </span>
+            </div>
+            <span className="home-text54">
+              We love founders. As developers, operators, and founders ourselves,
+              we&apos;re empathetic to founder&apos;s needs, and appreciative of
+              their visions. As young builders, we&apos;re active in communities
+              producing the highest growth startups, granting us early access to
+              key insights, great deals, and a massive competitive edge.
             </span>
           </div>
-          <span className="home-text54">
-            We love founders. As developers, operators, and founders ourselves,
-            we&apos;re empathetic to founder&apos;s needs, and appreciative of
-            their visions. As young builders, we&apos;re active in communities
-            producing the highest growth startups, granting us early access to
-            key insights, great deals, and a massive competitive edge.
-          </span>
-        </div>
-        <div className="separator" data-aos="fade-left"></div>
-        <div className="home-container29" data-aos="zoom-in" data-aos-delay="1600">
-          <div className="home-container30">
-            <span className="home-text55">
-              Network<sup>02</sup>
+          <div className="separator" data-aos="fade-left"></div>
+          <div className="home-container29" data-aos="zoom-in" data-aos-delay="1600">
+            <div className="home-container30">
+              <span className="home-text55">
+                Network<sup>02</sup>
+              </span>
+            </div>
+            <span className="home-text58">
+              We have access to a massive network of founders, operators, VCs,
+              accelerators, UHNWIs, policymakers, colleges, athletes, influencers
+              top executives at big tech, unicorns, and Fortune 500 companies. Our
+              network is a key resource we use to add value to our portfolio
+              companies, get access to deal flow, co-investment opportunities, and
+              subject matter expertise.
             </span>
           </div>
-          <span className="home-text58">
-            We have access to a massive network of founders, operators, VCs,
-            accelerators, UHNWIs, policymakers, colleges, athletes, influencers
-            top executives at big tech, unicorns, and Fortune 500 companies. Our
-            network is a key resource we use to add value to our portfolio
-            companies, get access to deal flow, co-investment opportunities, and
-            subject matter expertise.
-          </span>
-        </div>
-        <div className="separator" data-aos="fade-left"></div>
-        <div className="home-container31" data-aos="zoom-in" data-aos-delay="2000">
-          <div className="home-container32">
-            <span className="home-text59">
-              Ecosystem<sup>03</sup>
+          <div className="separator" data-aos="fade-left"></div>
+          <div className="home-container31" data-aos="zoom-in" data-aos-delay="2000">
+            <div className="home-container32">
+              <span className="home-text59">
+                Ecosystem<sup>03</sup>
+              </span>
+            </div>
+            <span className="home-text62" >
+              Our passion for community building inspired us to build an ecosystem
+              within our fund--for resources founders can use. We support each
+              other, tap in to all of our combined networks, like LPs and
+              advisors, and act as one unit. We&apos;re excited about startups who
+              are building their own ecosystems, and we want to be the first
+              involved. We&apos;re fanatic about creating synergies across
+              ecosystems.
             </span>
           </div>
-          <span className="home-text62" >
-            Our passion for community building inspired us to build an ecosystem
-            within our fund--for resources founders can use. We support each
-            other, tap in to all of our combined networks, like LPs and
-            advisors, and act as one unit. We&apos;re excited about startups who
-            are building their own ecosystems, and we want to be the first
-            involved. We&apos;re fanatic about creating synergies across
-            ecosystems.
-          </span>
         </div>
       </div>
       <div className="get-updates">
