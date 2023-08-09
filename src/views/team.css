@@ -67,58 +67,58 @@
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
+}
 
-  .team-image {
-    width: 20rem;
-    height: 20rem;
-  }
+.team-image {
+  width: 20rem;
+  height: 20rem;
+}
 
-  .team-member-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 20rem;
-    padding-top: 1rem;
-    align-items: center;
-  }
+.team-member-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20rem;
+  padding-top: 1rem;
+  align-items: center;
+}
 
-  .team-member-name {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-right: 0.5rem;
-    width: fit-content;
-  }
+.team-member-name {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 0.5rem;
+  width: fit-content;
+}
 
-  .team-name {
-    font-size: 30px;
-  }
+.team-name {
+  font-size: 30px;
+}
 
-  .team-arrow-container {
-    border: 1px solid var(--dl-color-gray-900);
-    width: 3rem;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 0.1rem;
-    transition: 0.3s all ease-in-out;
+.team-arrow-container {
+  border: 1px solid var(--dl-color-gray-900);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.1rem;
+  transition: 0.3s all ease-in-out;
 
-    &:hover {
-      background-color: #51B46B;
-      border: 0px;
+  &:hover {
+    background-color: #51B46B;
+    border: 0px;
 
-      .team-arrow {
-        stroke: white;
-      }
+    .team-arrow {
+      stroke: white;
     }
   }
+}
 
-  .team-arrow {
-    width: 2rem;
-    height: 2rem;
-    stroke: var(--dl-color-gray-900);
-  }
+.team-arrow {
+  width: 2rem;
+  height: 2rem;
+  stroke: var(--dl-color-gray-900);
 }
 
 

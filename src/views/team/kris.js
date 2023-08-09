@@ -97,7 +97,7 @@ const Kris = (props) => {
         </div>
         <div className="kris-titles" data-aos="fade-up">
           <span className="kris-texts01">Partner</span>
-          <span className="kris-texts02">Kristin is a serial entrepreneur, angel investor, creative director, and influencer. She cofounded Maxus Nails, a very successful proprietary nail product winning the Allure Beauty Award, also featured in Vogue, InStyle, ELLE, Cosmopolitan, and more. She also cofounded Cerebral Agency focusing on celebrity endorsements, tech, and venture capital. Kristin is also on the advisory board of We Empower Women.</span>
+          <span className="kris-texts02">Kristin is a serial entrepreneur, angel investor, creative director, and influencer. She cofounded Maxus Nails, a very successful proprietary nail product winning the Allure Beauty Award, featured in Vogue, InStyle, ELLE, Cosmopolitan, and more. She cofounded Cerebral Agency focusing on celebrity endorsements, tech, and venture capital. Kristin is also on the advisory board of We Empower Women.</span>
         </div>
       </div>
       <div className="get-updates">

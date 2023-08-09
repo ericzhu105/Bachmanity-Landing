@@ -9,12 +9,12 @@ const Home = (props) => {
 
   const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    window.onload = () => {
-      setIsLoaded(true);
-      AOS.init({ duration: 750, once: true, easing: 'ease-in-out' });
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.onload = () => {
+  //     setIsLoaded(true);
+  //     AOS.init({ duration: 750, once: true, easing: 'ease-in-out' });
+  //   };
+  // }, []);
 
   const showBurger = () => {
     document.querySelector('.mobile-menu').style.display = 'flex'
@@ -69,8 +69,11 @@ const Home = (props) => {
     };
   };
 
+  AOS.init({ duration: 750, once: true, easing: 'ease-in-out' });
+
   return (
-    <div className={`home-container ${isLoaded ? 'loaded' : ''}`}>
+    // <div className={`home-container ${isLoaded ? 'loaded' : ''}`}>
+    <div className={'home-container'}>
       <Helmet>
         <title>Bachmanity Capital</title>
         <meta property="og:title" content="BachmanityCapital" />
@@ -178,8 +181,8 @@ const Home = (props) => {
             focusing on exciting opportunities with established brands that have
             a proven track record of pushing the limits of innovation and
             achieving success. We leverage our massive A-list network of other
-            distinguished investors, esteemed universities, celebrities/pro-athletes, influential members of Congress. By
-            fostering a thriving celebrities/pro-athletes, influential members of Congress. By
+            distinguished investors, esteemed universities, celebrities/pro-athletes, and influential members of Congress. By
+            fostering a thriving celebrities/pro-athletes, and influential members of Congress. By
             fostering a thriving</div>
           <Link to="/team"><button data-aos="move" data-aos-anchor=".home-investment-criteria" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
@@ -192,12 +195,12 @@ const Home = (props) => {
             distinguished investors, esteemed<br></br>universities,<br></br>
           </span>
           <span>
-            celebrities/pro-athletes, influential members of Congress. By
+            celebrities/pro-athletes, and influential members of Congress. By
             fostering a thriving<br></br>
           </span>
           <span>
             <br></br>ecosystem that transcends generations, we endeavor to bridge the gap
-            in<br></br>the venture world, while creating entrepreneurial opportunities
+            in<br></br>the venture world while creating entrepreneurial opportunities
             for the youth in underrepresented communities.
           </span>
         </span>
@@ -232,7 +235,7 @@ const Home = (props) => {
           </div>
           <div className="stage-text">
             <span className="home-text33">
-              Our focus is Seed & Series A companies that have shown promising growth and traction in the market. We are also allocation 25% to later stage companies that have a proven track record of pushing the limits of innovation and achieving success
+              Our focus is Seed & Series A companies that have shown promising growth and traction in the market. We are also allocating 25% to later stage companies that have a proven track record of pushing the limits of innovation and achieving success
             </span>
           </div>
           <div className="separator" data-aos="fade-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
@@ -293,7 +296,7 @@ const Home = (props) => {
             <span className="home-text50" >
               Our backgrounds as developers, operators, and founders fuel our
               obsession with adding real value. We empower ambitious people via
-              capital.
+              capital (human & physical).
             </span>
           </div>
           <div className="separator how-we-add-val" data-aos="fade-left"></div>
@@ -320,8 +323,8 @@ const Home = (props) => {
             </div>
             <span className="home-text58">
               We have access to a massive network of founders, operators, VCs,
-              accelerators, UHNWIs, policymakers, colleges, athletes, influencers
-              top executives at big tech, unicorns, and Fortune 500 companies. Our
+              accelerators, UHNWIs, policymakers, colleges, athletes, influencers,
+              and high performing executives. Our
               network is a key resource we use to add value to our portfolio
               companies, get access to deal flow, co-investment opportunities, and
               subject matter expertise.
@@ -336,12 +339,10 @@ const Home = (props) => {
             </div>
             <span className="home-text62" >
               Our passion for community building inspired us to build an ecosystem
-              within our fund--for resources founders can use. We support each
-              other, tap in to all of our combined networks, like LPs and
-              advisors, and act as one unit. We&apos;re excited about startups who
-              are building their own ecosystems, and we want to be the first
-              involved. We&apos;re fanatic about creating synergies across
-              ecosystems.
+              within our fund for resources founders can use. We all support each
+              other by tapping into all of our combined networks, including our LPs, advisors, 
+              and allowing our portfolio companies to share their resources/networks
+              amongst each other. We all grow together.
             </span>
           </div>
         </div>
