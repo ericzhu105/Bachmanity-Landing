@@ -46,6 +46,7 @@
   height: 500px;
   margin-top: var(--dl-space-space-threeunits);
   vertical-align: middle;
+  margin-bottom: var(--dl-space-space-threeunits);
 }
 
 .grid-item {
@@ -306,89 +307,7 @@
   justify-content: space-between;
 }
 
-@media(max-width: 991px) {
-  .portfolio-footer {
-    flex-direction: column;
-  }
-
-  .portfolio-container08 {
-    margin-right: var(--dl-space-space-fourunits);
-  }
-
-  .portfolio-product-container {
-    margin-right: var(--dl-space-space-fourunits);
-  }
-}
-
-@media(max-width: 767px) {
-  .portfolio-footer {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-
-  .portfolio-container07 {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .portfolio-logo1 {
-    align-items: center;
-  }
-
-  .portfolio-text17 {
-    margin-top: var(--dl-space-space-twounits);
-    text-align: center;
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-
-  .portfolio-links-container {
-    width: 100%;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .portfolio-container08 {
-    margin-right: var(--dl-space-space-fourunits);
-  }
-
-  .portfolio-product-container {
-    margin-right: var(--dl-space-space-fourunits);
-  }
-}
-
-@media(max-width: 479px) {
-  .portfolio-footer {
-    padding: var(--dl-space-space-unit);
-  }
-
-  .portfolio-container07 {
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .portfolio-text17 {
-    margin-top: var(--dl-space-space-twounits);
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-
-  .portfolio-links-container {
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .portfolio-container08 {
-    margin-right: 0px;
-  }
-
-  .portfolio-text37 {
-    text-align: center;
-  }
-
-  .portfolio-company-container {
-    margin-right: 3rem;
-  }
+@media(max-width: 1000px) {
 
   .grid-container {
     width: 100%;
@@ -414,5 +333,9 @@
   .portfolio-logo1 {
     width: 100%;
   padding-top: 1rem;
+  }
+
+  .portfolio-text07 {
+    font-size: 2rem;
   }
 }

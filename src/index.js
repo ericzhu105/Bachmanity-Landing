@@ -6,10 +6,9 @@ import './style.css'
 import Home from './views/home'
 import Portfolio from './views/portfolio'
 import Team from './views/team'
-import Elam from './views/team/elam'
-import Eric from './views/team/eric'
-import Chuck from './views/team/chuck'
-import Kris from './views/team/kris'
+
+import teamData from './views/team/teamData'
+import TeamInfoPage from './views/team/teamInfoPage'
 
 const App = () => {
   return (
@@ -18,10 +17,16 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={Portfolio} exact path="/portfolio" />
         <Route component={Team} exact path="/team" />
-        <Route component={Elam} exact path="/investors/Christian-Elam" />
-        <Route component={Eric} exact path="/investors/Eric-Zhu" />
-        <Route component={Chuck} exact path="/investors/Chuck-Figueroa" />
-        <Route component={Kris} exact path="/investors/Kristin-Stueben" />
+        {teamData.map((teamMember) => {
+          return (
+            <Route
+              component={() => <TeamInfoPage name={teamMember.name} title={teamMember.title} bio={teamMember.bio} image={teamMember.image} twitter={teamMember.twitter} linkedin={teamMember.linkedin}                
+                />}
+              exact
+              path={teamMember.slug}
+            />
+          )
+        })}
       </div>
     </Router>
   )

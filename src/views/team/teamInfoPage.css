@@ -1,0 +1,159 @@
+.container {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    /* Avoid horizontal scroll on small screens */
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: var(--dl-space-space-unit);
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.info-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: var(--dl-space-space-fourunits);
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+.info-titles01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-container .info-text01 {
+    color: #000;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.info-texts01 {
+    color: #000;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    /* 150% */
+    width: fit-content;
+    margin-bottom: var(--dl-space-space-fourunits);
+}
+
+.hidden-text-info {
+    display: none;
+    font-size: 20px;
+}
+
+.info-texts02 {
+    color: #000;
+    font-family: Neue Haas Grotesk Display Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info-pic {
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+.socials {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-start;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 64px;
+}
+
+.twitter,
+.link {
+  filter: grayscale(100%);
+  margin-right: var(--dl-space-space-unit);
+}
+
+.twitter:hover,
+.link:hover {
+  filter: grayscale(0%);
+}
+
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 1000px) {
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-titles {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .info-texts01 {
+        display: none;
+        margin-bottom: 0rem;
+    }
+    .hidden-text-info {
+        display: block;
+    }
+
+    .info-titles01 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-texts02 {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .info-pic {
+        width: 100%;
+        /* Adjust image width to fit smaller screens */
+        height: auto;
+    }
+
+    .socials {
+        justify-content: center;
+        margin-bottom: 3rem;
+        align-self: center;
+        margin-top: 1rem;
+    }
+}
+[data-aos="move"] {
+    transform: translate3d(0px, 0px, 0px) scale3d(0.97, 0.97, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 0;
+    transition: 2s opacity;
+    transform-style: preserve-3d, opacity;
+  }
+  [data-aos="move"].aos-animate {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    opacity: 1;
+  }
