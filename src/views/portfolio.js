@@ -26,12 +26,12 @@ const Portfolio = (props) => {
         </span>
       </div>
       <div className="grid-container" data-aos="fade-in">
-        <div className="grid-item"><a href='https://www.promly.org/' target="_blank"><img src={"/promly.svg"} alt="image"/></a></div>
-        <div className="grid-item"><a href='https://pipe.com/' target='_blank'><img src={"/pipe.svg"} alt="image"/></a></div>
-        <div className="grid-item"><a href='https://www.housrapp.co.uk/' target='_blank'><img src={"/housr.svg"} alt="image"/></a></div>
-        <div className="grid-item"><a href='https://www.radianaerospace.com/' target='_blank'><img src={"/radian.svg"} alt="image"/></a></div>
-        <div className="grid-item"><a href='https://juneshine.com/' target='_blank'><img className="june" src={"/june.svg"} alt="image"/></a></div>
-        <div className="grid-item"><a href='https://rentberry.com/' target='_blank'><img src={"/rentberry.svg"} alt="image"/></a></div>
+        <div className="grid-item"><a href='https://www.promly.org/' target="_blank"><img src={"/companies/promly.svg"} alt="image"/></a></div>
+        <div className="grid-item"><a href='https://pipe.com/' target='_blank'><img src={"/companies/pipe.svg"} alt="image"/></a></div>
+        <div className="grid-item"><a href='https://www.housrapp.co.uk/' target='_blank'><img src={"/companies/housr.svg"} alt="image"/></a></div>
+        <div className="grid-item"><a href='https://www.radianaerospace.com/' target='_blank'><img src={"/companies/radian.svg"} alt="image"/></a></div>
+        <div className="grid-item"><a href='https://juneshine.com/' target='_blank'><img className="june" src={"/companies/june.svg"} alt="image"/></a></div>
+        <div className="grid-item"><a href='https://rentberry.com/' target='_blank'><img src={"/companies/rentberry.svg"} alt="image"/></a></div>
       </div>
       <GetUpdates />
       <Footer />

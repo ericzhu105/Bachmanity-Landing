@@ -70,7 +70,7 @@
 }
 
 .team-image {
-  width: 20rem;
+  width: 18rem;
   height: 20rem;
 }
 
@@ -78,7 +78,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 20rem;
+  width: 18rem;
   padding-top: 1rem;
   align-items: center;
 }
@@ -92,7 +92,7 @@
 }
 
 .team-name {
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
 .team-arrow-container {
@@ -213,4 +213,15 @@
   }
 
 
+}
+
+[data-aos="move"] {
+  transform: translate3d(0px, 0px, 0px) scale3d(0.97, 0.97, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 0;
+  transition: 2s opacity;
+  transform-style: preserve-3d, opacity;
+}
+[data-aos="move"].aos-animate {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 1;
 }
