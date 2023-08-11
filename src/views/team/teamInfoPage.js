@@ -6,7 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { Navbar } from '../Components/Navbar'
 import { Footer } from '../Components/Footer'
-import { GetUpdates } from '../Components/GetUpdates'
+import GetUpdates from '../Components/GetUpdates'
 
 const TeamInfoPage = ({name, title, bio, image, twitter, linkedin}) => {
     AOS.init({duration: 1000, once: true})

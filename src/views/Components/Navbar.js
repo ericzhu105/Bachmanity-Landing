@@ -30,6 +30,9 @@ export class Navbar extends Component {
             <a href="https://www.joinaviato.com/bachmanity" className="navlink2 textUnderline">
               Pitch Us
             </a>
+            <Link to="/lp" className="navlink2 textUnderline">
+              Become An LP
+            </Link>
           </nav>
         </div>
         <div className="mobile-burger-menu">
@@ -54,6 +57,9 @@ export class Navbar extends Component {
               <a href="https://www.joinaviato.com/bachmanity" className="mobile-text">
                 Pitch Us
               </a>
+              <Link to="/lp" className="mobile-text">
+              Become An LP
+            </Link>
             </nav>
           </div>
           <div>

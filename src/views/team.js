@@ -5,7 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './team.css'
 import { Navbar } from './Components/Navbar'
-import { GetUpdates } from './Components/GetUpdates'
+import GetUpdates from './Components/GetUpdates'
 import { Footer } from './Components/Footer'
 
 const Team = (props) => {

@@ -6,6 +6,7 @@ import './style.css'
 import Home from './views/home'
 import Portfolio from './views/portfolio'
 import Team from './views/team'
+import LP from './views/lp'
 
 import teamData from './views/team/teamData'
 import TeamInfoPage from './views/team/teamInfoPage'
@@ -27,6 +28,7 @@ const App = () => {
             />
           )
         })}
+        <Route component={LP} exact path="/lp" />
       </div>
     </Router>
   )
