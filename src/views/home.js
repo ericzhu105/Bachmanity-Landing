@@ -10,14 +10,11 @@ import { Footer } from './Components/Footer';
 
 const Home = (props) => {
 
-  const [isLoaded, setIsLoaded] = useState(false);
+  const showPage = () => {
+    document.querySelector('.home-container').style.opacity = 1;
+  };
 
-  // useEffect(() => {
-  //   window.onload = () => {
-  //     setIsLoaded(true);
-  //     AOS.init({ duration: 750, once: true, easing: 'ease-in-out' });
-  //   };
-  // }, []);
+
 
   const toggleElement = (selector, show) => {
     const element = document.querySelector(selector);
@@ -64,11 +61,10 @@ const Home = (props) => {
     };
   };
 
-  AOS.init({ duration: 750, once: true, easing: 'ease-in-out' });
+  AOS.init({ duration: 500, once: true, easing: 'ease-in-out' });
 
   return (
-    // <div className={`home-container ${isLoaded ? 'loaded' : ''}`}>
-    <div className={'home-container'}>
+    <div className={'home-container'} onLoad={showPage}>
       <Helmet>
         <title>Bachmanity Capital</title>
         <meta property="og:title" content="BachmanityCapital" />
@@ -118,13 +114,16 @@ const Home = (props) => {
             <br></br>
             <br></br>
           </span>
-          <div className="home-text17" data-aos="move" data-aos-anchor=".home-investment-criteria">Bachmanity Capital is a Seed &amp; Series A focused generalist fund
-            focusing on exciting opportunities with established brands that have
-            a proven track record of pushing the limits of innovation and
-            achieving success. We leverage our massive A-list network of other
-            distinguished investors, esteemed universities, celebrities/pro-athletes, and influential members of Congress. By
-            fostering a thriving celebrities/pro-athletes, and influential members of Congress. By
-            fostering a thriving</div>
+          <div className="home-text17" data-aos="move" data-aos-anchor=".home-investment-criteria">
+            Bachmanity Capital is a Seed & Series A focused generalist fund focusing on
+            exciting opportunities with established brands that have a proven track
+            record of pushing the limits of innovation and achieving success. We leverage
+            our massive A-list network of other distinguished investors, esteemed
+            universities, celebrities/pro-athletes, and influential members of Congress. 
+            By fostering a thriving ecosystem that transcends generations, we endeavor 
+            to bridge the gap in the venture world while creating entrepreneurial 
+            opportunities for the youth in underrepresented communities.
+            </div>
           <Link to="/team"><button data-aos="move" data-aos-anchor=".home-investment-criteria" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
         <span data-aos="move" className="home-text20" data-aos-anchor=".home-investment-criteria">

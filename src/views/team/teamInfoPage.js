@@ -9,7 +9,7 @@ import { Footer } from '../Components/Footer'
 import GetUpdates from '../Components/GetUpdates'
 
 const TeamInfoPage = ({name, title, bio, image, twitter, linkedin}) => {
-    AOS.init({duration: 1000, once: true})
+    AOS.init({duration: 500, once: true})
 
   return (
     <div className="container">

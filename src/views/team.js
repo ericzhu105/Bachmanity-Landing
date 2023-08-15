@@ -10,7 +10,7 @@ import { Footer } from './Components/Footer'
 
 const Team = (props) => {
 
-  AOS.init({ duration: 1000, once: true })
+  AOS.init({ duration: 500, once: true })
 
   return (
     <div className="team-container">
@@ -29,7 +29,7 @@ const Team = (props) => {
 
       <div className='holder'>
       <div className="team-separator"></div>
-      <div className="team" data-aos="move" data-aos-anchor=".team1">
+      <div className="team" data-aos="move">
         {/* <a href="/investors/Christian-Elam">
         <div className="team-elam" id="team-elam" href="/investors/Christian-Elam">
           <div className="team-container03">

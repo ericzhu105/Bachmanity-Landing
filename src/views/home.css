@@ -9,12 +9,12 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  /* opacity: 0;
-  transition: opacity 0s; */
+  opacity: 0;
+  transition: opacity 0s;
 }
 
 .home-container.loaded {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .home-text01 {
