@@ -91,22 +91,10 @@ const Team = (props) => {
             </div>
           </div>
         </div> */}
-          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.svg" link="/investors/Christian-Elam" />
+          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.svg" link="/investors/Christian-Elam" data-aos-anchor=".team3"/>
           <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.svg" link="/investors/eric-zhu" />
           <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.svg" link="/investors/chuck-Figueroa" />
           <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.svg" link="/investors/Kristin-Stueben" />
-        </div>
-        <div className="team team1" data-aos="move" data-aos-anchor=".team2">
-          <TeamMember name="Marvin McKinney" title="General Partner" image="headshots/marvin.svg" link="/investors/marvin-mckinney" />
-          <TeamMember name="Floyd Miles" title="General Partner" image="headshots/floyd.svg" link="/investors/floyd-miles" />
-          <TeamMember name="Brooklyn Simmons" title="Partner" image="headshots/brooklyn.svg" link="/investors/brooklyn-simmons" />
-          <TeamMember name="Jerome Bell" title="Partner" image="headshots/jerome.svg" link="/investors/jerome-bell" />
-        </div>
-        <div className='team team2' data-aos="move" data-aos-anchor=".team3">
-          <TeamMember name="Jane Cooper" title="General Partner" image="headshots/jane.svg" link="/investors/jane-cooper" />
-          <TeamMember name="Wade Warren" title="General Partner" image="headshots/wade.svg" link="/investors/wade-warren" />
-          <TeamMember name="Esther Howard" title="Partner" image="headshots/esther.svg" link="/investors/esther-howard" />
-          <TeamMember name="Bessie Cooper" title="Partner" image="headshots/bessie.svg" link="/investors/bessie-cooper" />
         </div>
         <div className="team team3" data-aos="move"  data-aos-anchor=".team4">
           <TeamMember name="Gleb Chuvpilo" title="Advisor" image="headshots/gleb.svg" link="/investors/Gleb-Chuvpilo" />
