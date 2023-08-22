@@ -28,9 +28,9 @@ const Team = (props) => {
       </div>
 
       <div className='holder'>
-      <div className="team-separator"></div>
-      <div className="team" data-aos="move">
-        {/* <a href="/investors/Christian-Elam">
+        <div className="team-separator"></div>
+        <div className="team" data-aos="move">
+          {/* <a href="/investors/Christian-Elam">
         <div className="team-elam" id="team-elam" href="/investors/Christian-Elam">
           <div className="team-container03">
             <span className="elam-text01">Christian Elam</span>
@@ -77,7 +77,7 @@ const Team = (props) => {
             <img src={"/arrow-right.svg"} className="kris-arrow"></img>
         </div>
         </a> */}
-        {/* <div className="team-info-container">
+          {/* <div className="team-info-container">
           <img src={"/elam.svg"} className='team-image' alt="image" />
           <div className='team-member-info'>
             <div className='team-member-name'>
@@ -91,23 +91,34 @@ const Team = (props) => {
             </div>
           </div>
         </div> */}
-        <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.svg" link="/investors/Christian-Elam" />
-        <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.svg" link="/investors/eric-zhu" />
-        <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.svg" link="/investors/chuck-Figueroa" />
-        <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.svg" link="/investors/Kristin-Stueben" />
-      </div>
-      <div className="team team1" data-aos="move" data-aos-anchor=".team2">
-        <TeamMember name="Marvin McKinney" title="General Partner" image="headshots/marvin.svg" link="/investors/marvin-mckinney" />
-        <TeamMember name="Floyd Miles" title="General Partner" image="headshots/floyd.svg" link="/investors/floyd-miles" />
-        <TeamMember name="Brooklyn Simmons" title="Partner" image="headshots/brooklyn.svg" link="/investors/brooklyn-simmons" />
-        <TeamMember name="Jerome Bell" title="Partner" image="headshots/jerome.svg" link="/investors/jerome-bell" />
-      </div>
-      <div className="team team2" data-aos="move">
-        <TeamMember name="Jane Cooper" title="General Partner" image="headshots/jane.svg" link="/investors/jane-cooper" />
-        <TeamMember name="Wade Warren" title="General Partner" image="headshots/wade.svg" link="/investors/wade-warren" />
-        <TeamMember name="Esther Howard" title="Partner" image="headshots/esther.svg" link="/investors/esther-howard" />
-        <TeamMember name="Bessie Cooper" title="Partner" image="headshots/bessie.svg" link="/investors/bessie-cooper" />
-      </div>
+          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.svg" link="/investors/Christian-Elam" />
+          <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.svg" link="/investors/eric-zhu" />
+          <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.svg" link="/investors/chuck-Figueroa" />
+          <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.svg" link="/investors/Kristin-Stueben" />
+        </div>
+        <div className="team team1" data-aos="move" data-aos-anchor=".team2">
+          <TeamMember name="Marvin McKinney" title="General Partner" image="headshots/marvin.svg" link="/investors/marvin-mckinney" />
+          <TeamMember name="Floyd Miles" title="General Partner" image="headshots/floyd.svg" link="/investors/floyd-miles" />
+          <TeamMember name="Brooklyn Simmons" title="Partner" image="headshots/brooklyn.svg" link="/investors/brooklyn-simmons" />
+          <TeamMember name="Jerome Bell" title="Partner" image="headshots/jerome.svg" link="/investors/jerome-bell" />
+        </div>
+        <div className='team team2' data-aos="move" data-aos-anchor=".team3">
+          <TeamMember name="Jane Cooper" title="General Partner" image="headshots/jane.svg" link="/investors/jane-cooper" />
+          <TeamMember name="Wade Warren" title="General Partner" image="headshots/wade.svg" link="/investors/wade-warren" />
+          <TeamMember name="Esther Howard" title="Partner" image="headshots/esther.svg" link="/investors/esther-howard" />
+          <TeamMember name="Bessie Cooper" title="Partner" image="headshots/bessie.svg" link="/investors/bessie-cooper" />
+        </div>
+        <div className="team team3" data-aos="move"  data-aos-anchor=".team4">
+          <TeamMember name="Gleb Chuvpilo" title="Advisor" image="headshots/gleb.svg" link="/investors/Gleb-Chuvpilo" />
+          <TeamMember name="Patrick Morselli" title="Advisor" image="headshots/patrick.svg" link="/investors/Patrick-Morselli" />
+          <TeamMember name="Dr. Joel Palathinkal" title="Advisor" image="headshots/joel.svg" link="/investors/Joel-Palathinkal" />
+          <TeamMember name="Alex Cornell du Houx" title="Advisor" image="headshots/alex.svg" link="/investors/Alex-Cornell" fontSize={'1.3rem'}/>
+        </div>
+        <div className="team team4" data-aos="move">
+          <TeamMember name="Brandon Maier" title='Advisor' image="headshots/brandon.svg" link="/investors/Brandon-Maier" />
+          <TeamMember name="Ian Arden" title='Advisor' image="headshots/ian.svg" link="/investors/Ian-Arden" />
+          <TeamMember name="Conor Patton" title='Advisor' image="headshots/conor.svg" link="/investors/Conor-Patton" />
+        </div>
       </div>
       <GetUpdates />
       <Footer />
@@ -115,13 +126,14 @@ const Team = (props) => {
   )
 }
 
-const TeamMember = ({ name, title, image, link }) => {
+const TeamMember = ({ name, title, image, link, fontSize }) => {
+  fontSize = fontSize || '1.5rem'
   return (
     <div className="team-info-container">
       <img src={`/${image}`} className='team-image' alt="image" />
       <div className='team-member-info'>
         <div className='team-member-name'>
-          <span className="team-name">{name}</span>
+          <span className="team-name" style={{fontSize: fontSize}}>{name}</span>
           <span className="team-title">{title}</span>
         </div>
         <a href={link}>
