@@ -38,7 +38,7 @@ const Team = (props) => {
           </div>
             <img src={"/elam.png"}  className='elam-image' alt="image" id="elam-image"/>
           <span className="elam-text02">FOUNDING GENERAL PARTNER</span>
-            <img className='elam-arrow' src={"/arrow-right.svg"}></img>
+            <img className='elam-arrow' src={"/arrow-right.png"}></img>
         </div>
         </a>
         <div className="team-separator"></div>
@@ -50,7 +50,7 @@ const Team = (props) => {
           </div>
               <img src={"/eric.png"} alt="image" id="eric-image" className='eric-image'/>
           <span className="eric-text02">GENERAL PARTNER</span>
-          <img src={"/arrow-right.svg"} className='eric-arrow'></img>
+          <img src={"/arrow-right.png"} className='eric-arrow'></img>
         </div>
         </a>
         <div className="team-separator"></div>
@@ -62,7 +62,7 @@ const Team = (props) => {
           </div>
             <img src={"/chuck.png"} className='chuck-image' alt="image" id="chuck-image"/>
           <span className="chuck-text02">PARTNER</span>
-            <img src={"/arrow-right.svg"} className="chuck-arrow"></img>
+            <img src={"/arrow-right.png"} className="chuck-arrow"></img>
         </div>
         </a>
         <div className="team-separator"></div>
@@ -74,11 +74,11 @@ const Team = (props) => {
           </div>
             <img src={"/kris.png"}  className='kris-image' alt="image" id="kris-image" />
           <span className="kris-text02">PARTNER</span>
-            <img src={"/arrow-right.svg"} className="kris-arrow"></img>
+            <img src={"/arrow-right.png"} className="kris-arrow"></img>
         </div>
         </a> */}
           {/* <div className="team-info-container">
-          <img src={"/elam.svg"} className='team-image' alt="image" />
+          <img src={"/elam.png"} className='team-image' alt="image" />
           <div className='team-member-info'>
             <div className='team-member-name'>
               <span className="team-name">Christian Elam</span>
@@ -91,21 +91,21 @@ const Team = (props) => {
             </div>
           </div>
         </div> */}
-          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.svg" link="/investors/Christian-Elam" data-aos-anchor=".team3"/>
-          <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.svg" link="/investors/eric-zhu" />
-          <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.svg" link="/investors/chuck-Figueroa" />
-          <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.svg" link="/investors/Kristin-Stueben" />
+          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.png" link="/investors/Christian-Elam" data-aos-anchor=".team3"/>
+          <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.png" link="/investors/eric-zhu" />
+          <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.png" link="/investors/chuck-Figueroa" />
+          <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.png" link="/investors/Kristin-Stueben" />
         </div>
         <div className="team team3" data-aos="move"  data-aos-anchor=".team4">
-          <TeamMember name="Gleb Chuvpilo" title="Advisor" image="headshots/gleb.svg" link="/investors/Gleb-Chuvpilo" />
-          <TeamMember name="Patrick Morselli" title="Advisor" image="headshots/patrick.svg" link="/investors/Patrick-Morselli" />
-          <TeamMember name="Dr. Joel Palathinkal" title="Advisor" image="headshots/joel.svg" link="/investors/Joel-Palathinkal" />
-          <TeamMember name="Alex Cornell du Houx" title="Advisor" image="headshots/alex.svg" link="/investors/Alex-Cornell" fontSize={'1.3rem'}/>
+          <TeamMember name="Gleb Chuvpilo" title="Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" />
+          <TeamMember name="Patrick Morselli" title="Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
+          <TeamMember name="Dr. Joel Palathinkal" title="Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
+          <TeamMember name="Alex Cornell du Houx" title="Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'}/>
         </div>
         <div className="team team4" data-aos="move">
-          <TeamMember name="Brandon Maier" title='Advisor' image="headshots/brandon.svg" link="/investors/Brandon-Maier" />
-          <TeamMember name="Ian Arden" title='Advisor' image="headshots/ian.svg" link="/investors/Ian-Arden" />
-          <TeamMember name="Conor Patton" title='Advisor' image="headshots/conor.svg" link="/investors/Conor-Patton" />
+          <TeamMember name="Brandon Maier" title='Advisor' image="headshots/brandon.png" link="/investors/Brandon-Maier" />
+          <TeamMember name="Ian Arden" title='Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
+          <TeamMember name="Conor Patton" title='Advisor' image="headshots/conor.png" link="/investors/Conor-Patton" />
         </div>
       </div>
       <GetUpdates />
@@ -118,7 +118,7 @@ const TeamMember = ({ name, title, image, link, fontSize }) => {
   fontSize = fontSize || '1.5rem'
   return (
     <div className="team-info-container">
-      <img src={`/${image}`} className='team-image' alt="image" />
+      <a href={link}><img src={`/${image}`} className='team-image' alt="image" /></a>
       <div className='team-member-info'>
         <div className='team-member-name'>
           <span className="team-name" style={{fontSize: fontSize}}>{name}</span>
