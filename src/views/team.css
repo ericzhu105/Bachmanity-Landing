@@ -121,6 +121,10 @@
   stroke: var(--dl-color-gray-900);
 }
 
+.team {
+  width: fit-content;
+}
+
 @media(min-width: 1700px) {
   .team-footer {
     flex-direction: column;
