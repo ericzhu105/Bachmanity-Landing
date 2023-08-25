@@ -40,8 +40,7 @@ export class Footer extends Component {
           <div className="footer-container35">
             <div className="footer-company-container">
               <span className="footer-text"><a href='/'>Home</a></span>
-              <span className="footer-text">About</span>
-              <span className="footer-text">Careers</span>
+              <span className="footer-text"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Careers</a></span>
             </div>
             <div className="footer-company-container">
               <span className="footer-text"><a href='/portfolio'>Portfolio</a></span>
@@ -49,12 +48,8 @@ export class Footer extends Component {
               <span className="footer-text"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
             </div>
             <div className="footer-company-container" style={{ marginRight: 0 }}>
-              <span className="footer-text">Terms of Service</span>
-              <span className="footer-text">
-                <span>Conduct</span>
-                <br></br>
-              </span>
-              <span className="footer-text">Disclosures</span>
+              <span className="footer-text"><a href='https://www.morrisoncohen.com/'>Terms of Service</a></span>
+              <span className="footer-text"><a href='https://www.morrisoncohen.com/'>Disclosures</a></span>
             </div>
           </div>
         </div>
