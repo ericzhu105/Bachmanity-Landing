@@ -81,7 +81,7 @@ const Home = (props) => {
         <span data-aos="move" className="home-text13">
           <span>
             An early stage fund created by Gen Z operators &amp; seasoned
-            veterans to support innovation, and to empower the next generations
+            veterans to support innovation and empower the next generations
             of entrepreneurs advancing humanity.
             <span
               dangerouslySetInnerHTML={{
@@ -99,7 +99,7 @@ const Home = (props) => {
         </span>
         <div data-aos="move" className="home-btn-group">
           <a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'><button className="home-button button">Get In Touch <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></a>
-          <Link to="/portfolio"><button className="home-button1 button">Investment Portfolio <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSepLHPM8QgLsc3FXjDS9r2zgnAdoYqw5xu9ETgRa2vbwrQDEw/viewform"><button className="home-button1 button">Become An LP <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></a>
         </div>
       </div>
       <div style={{ width: "100%", height: "100%" }}><img
@@ -119,11 +119,11 @@ const Home = (props) => {
             exciting opportunities with established brands that have a proven track
             record of pushing the limits of innovation and achieving success. We leverage
             our massive A-list network of other distinguished investors, esteemed
-            universities, celebrities/pro-athletes, and influential members of Congress. 
-            By fostering a thriving ecosystem that transcends generations, we endeavor 
-            to bridge the gap in the venture world while creating entrepreneurial 
+            universities, celebrities/pro-athletes, and influential members of Congress.
+            By fostering a thriving ecosystem that transcends generations, we endeavor
+            to bridge the gap in the venture world while creating entrepreneurial
             opportunities for the youth in underrepresented communities.
-            </div>
+          </div>
           <Link to="/team"><button data-aos="move" data-aos-anchor=".home-investment-criteria" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
         <span data-aos="move" className="home-text20" data-aos-anchor=".home-investment-criteria">
@@ -192,10 +192,10 @@ const Home = (props) => {
             <span className="home-text33">
               Founding team must be comprised of ambitious operators with
               first hand experience building and scaling in their industry.
-              We look for people who are passionate, highly-motivated, and
-              proven to execute on their goals. Founder-investor fit is
+              We look for people who are passionate, highly motivated, and
+              proven to execute their goals. Founder-investor fit is
               important to us -- we believe in establishing close
-              relationships with our founders, and growing with them.
+              relationships with our founders and growing with them.
             </span>
           </div>
         </div>
@@ -240,7 +240,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="separator how-we-add-val" data-aos="fade-left"></div>
-          <div className="home-container27" data-aos="zoom-in" data-aos-delay="800">
+          <div className="home-container27" data-aos="zoom-in" data-aos-delay="400">
             <div className="home-container28">
               <span className="home-text51">
                 Background<sup>01</sup>
@@ -255,7 +255,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="separator" data-aos="fade-left"></div>
-          <div className="home-container29" data-aos="zoom-in" data-aos-delay="1600">
+          <div className="home-container29" data-aos="zoom-in" data-aos-delay="600">
             <div className="home-container30">
               <span className="home-text55">
                 Network<sup>02</sup>
@@ -271,7 +271,7 @@ const Home = (props) => {
             </span>
           </div>
           <div className="separator" data-aos="fade-left"></div>
-          <div className="home-container31" data-aos="zoom-in" data-aos-delay="2000">
+          <div className="home-container31" data-aos="zoom-in" data-aos-delay="800">
             <div className="home-container32">
               <span className="home-text59">
                 Ecosystem<sup>03</sup>

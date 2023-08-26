@@ -10,7 +10,7 @@ export class Footer extends Component {
             <span className="footer-text71">
               <br></br>
               <span>
-                A $20M fund to empower passionate
+                A fund to empower passionate
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',

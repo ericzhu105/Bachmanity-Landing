@@ -11,6 +11,7 @@
   flex-direction: column;
   opacity: 0;
   transition: opacity 0s;
+  overflow: hidden;
 }
 
 .home-container.loaded {
@@ -228,6 +229,7 @@
   font-size: 18px;
   line-height: 28px;
   max-width: 850px;
+  margin: 2rem;
 }
 
 .home-investment-criteria {
@@ -775,12 +777,14 @@ sup {
     margin-left: 0px;
     width: fit-content;
     margin-right: 10px;
+    font-size: 0.8rem;
   }
 
   .home-button1 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
     width: fit-content;
+    font-size: 0.8rem;
   }
 
   .mobile-burger-menu {

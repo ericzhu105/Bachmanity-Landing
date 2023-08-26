@@ -10,6 +10,7 @@ import GetUpdates from '../Components/GetUpdates'
 
 const TeamInfoPage = ({name, title, bio, image, twitter, linkedin}) => {
     AOS.init({duration: 500, once: true})
+    bio = bio.replace(/\\n/g, '<br />')
 
   return (
     <div className="container">
@@ -26,7 +27,6 @@ const TeamInfoPage = ({name, title, bio, image, twitter, linkedin}) => {
             <span className="info-text01">{ name }</span>
             <span className='hidden-text-info'>{ title }</span>
             <div className="socials" data-aos="fade-up">
-              <a href={ twitter }><img src={"/twitter.svg"} className="twitter" alt="twitter" /></a>
               <a href= { linkedin }><img src={"/link.svg"} className="link" alt="link" /></a>
             </div>
           </div>

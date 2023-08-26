@@ -7,10 +7,53 @@ import './team.css'
 import { Navbar } from './Components/Navbar'
 import GetUpdates from './Components/GetUpdates'
 import { Footer } from './Components/Footer'
+import { useState, useEffect } from 'react';
 
 const Team = (props) => {
 
   AOS.init({ duration: 500, once: true })
+
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+
+  useEffect(() => {
+    // List of image URLs
+    const imageUrls = [
+      '/elam.png',
+      '/eric.png',
+      '/chuck.png',
+      '/kris.png',
+      '/gleb.png',
+      '/patrick.png',
+      '/joel.png',
+      '/alex.png',
+      '/brandon.png',
+      '/ian.png',
+      '/conor.png'
+    ];
+
+    const images = [];
+    let loadedImages = 0;
+
+    const handleImageLoad = () => {
+      loadedImages++;
+      if (loadedImages === imageUrls.length) {
+        setImagesLoaded(true);
+      }
+    };
+
+    // Preload images
+    imageUrls.forEach((imageUrl) => {
+      const img = new Image();
+      img.src = imageUrl;
+      img.onload = handleImageLoad;
+      images.push(img);
+    });
+
+    // Clean up
+    return () => {
+      images.forEach((img) => img.removeEventListener('load', handleImageLoad));
+    };
+  }, []);
 
   return (
     <div className="team-container">
