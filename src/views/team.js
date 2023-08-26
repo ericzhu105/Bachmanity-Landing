@@ -139,7 +139,7 @@ const Team = (props) => {
           <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.png" link="/investors/chuck-Figueroa" />
           <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.png" link="/investors/Kristin-Stueben" />
         </div>
-        <div className="team team3" data-aos="move"  data-aos-anchor=".team4">
+        <div className="team team3" data-aos="move">
           <TeamMember name="Gleb Chuvpilo" title="Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" />
           <TeamMember name="Patrick Morselli" title="Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
           <TeamMember name="Dr. Joel Palathinkal" title="Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
