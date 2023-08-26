@@ -10,7 +10,6 @@ import GetUpdates from '../Components/GetUpdates'
 
 const TeamInfoPage = ({name, title, bio, image, twitter, linkedin}) => {
     AOS.init({duration: 500, once: true})
-    bio = bio.replace(/\\n/g, '<br />')
 
   return (
     <div className="container">
