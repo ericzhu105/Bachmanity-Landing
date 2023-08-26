@@ -81,7 +81,8 @@
 .socials {
     display: flex;
     align-self: flex-end;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     width: fit-content;
     height: fit-content;
     margin-bottom: 64px;
