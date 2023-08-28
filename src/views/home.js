@@ -61,7 +61,8 @@ const Home = (props) => {
     };
   };
 
-  AOS.init({ duration: 500, once: true, easing: 'ease-in-out' });
+  AOS.init({ duration: 500, once: true, easing: 'ease-in-out', startEvent: 'load', disableMutationObserver: false });
+  AOS.refresh(true);
 
   return (
     <div className={'home-container'} onLoad={showPage}>

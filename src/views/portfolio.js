@@ -10,7 +10,8 @@ import { Footer } from './Components/Footer'
 
 const Portfolio = (props) => {
 
-  AOS.init({duration: 500, once: true})
+  AOS.init({ duration: 500, once: true, easing: 'ease-in-out', startEvent: 'load', disableMutationObserver: false });
+  AOS.refresh(true);
 
   return (
     <div className="portfolio-container">

@@ -11,7 +11,8 @@ import { useState, useEffect } from 'react';
 
 const Team = (props) => {
 
-  AOS.init({ duration: 500, once: true })
+  AOS.init({ duration: 500, once: true, easing: 'ease-in-out', startEvent: 'load', disableMutationObserver: false });
+  AOS.refresh(true);
 
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
