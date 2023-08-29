@@ -48,8 +48,8 @@ export class Footer extends Component {
               <span className="footer-text"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
             </div>
             <div className="footer-company-container" style={{ marginRight: 0 }}>
-              <span className="footer-text"><a href='https://www.morrisoncohen.com/'>Terms of Service</a></span>
-              <span className="footer-text"><a href='https://www.morrisoncohen.com/'>Disclosures</a></span>
+              <span className="footer-text"><a href='#'>Terms of Service</a></span>
+              <span className="footer-text"><a href='#'>Disclosures</a></span>
             </div>
           </div>
         </div>
@@ -61,8 +61,8 @@ export class Footer extends Component {
             </span>
           </div>
           <div className="footer-container36">
-            <a href='https://twitter.com/BachmanityFund'><img src={"/twitter.svg"} className="footer-twitter" alt="twitter" /></a>
-            <a href='https://www.linkedin.com/company/bachmanity-capital/'><img src={"/link.svg"} className="footer-link" alt="link" /></a>
+            <a target="_blank" href='https://twitter.com/BachmanityFund'><img src={"/twitter.svg"} className="footer-twitter" alt="twitter" /></a>
+            <a target="_blank" href='https://www.linkedin.com/company/bachmanity-capital/'><img src={"/link.svg"} className="footer-link" alt="link" /></a>
           </div>
         </div>
       </footer>

@@ -27,7 +27,7 @@ const TeamInfoPage = ({name, title, bio, image, twitter, linkedin}) => {
             <span className="info-text01">{ name }</span>
             <span className='hidden-text-info'>{ title }</span>
             <div className="socials" data-aos="fade-up">
-              <a href= { linkedin }><img src={"/link.svg"} className="link" alt="link" /></a>
+              <a target="_blank" href= { linkedin }><img src={"/link.svg"} className="link" alt="link" /></a>
             </div>
           </div>
           <img src={`/${ image }`} className="info-pic" />
