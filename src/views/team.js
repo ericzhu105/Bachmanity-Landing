@@ -29,7 +29,8 @@ const Team = (props) => {
       '/alex.png',
       '/brandon.png',
       '/ian.png',
-      '/conor.png'
+      '/conor.png',
+      "/tim.jpg"
     ];
 
     const images = [];
@@ -135,21 +136,22 @@ const Team = (props) => {
             </div>
           </div>
         </div> */}
-          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.png" link="/investors/Christian-Elam" data-aos-anchor=".team3"/>
+          <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.png" link="/investors/Christian-Elam" data-aos-anchor=".team3" />
           <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.png" link="/investors/eric-zhu" />
           <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.png" link="/investors/chuck-Figueroa" />
           <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.png" link="/investors/Kristin-Stueben" />
         </div>
         <div className="team team3" data-aos="move">
-          <TeamMember name="Gleb Chuvpilo" title="Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" />
-          <TeamMember name="Patrick Morselli" title="Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
-          <TeamMember name="Dr. Joel Palathinkal" title="Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
-          <TeamMember name="Alex Cornell du Houx" title="Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'}/>
+          <TeamMember name="Gleb Chuvpilo" title="Investment & Strategy Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" fontSize0={"15px"}/>
+          <TeamMember name="Tim Chrisman" title="Space & Defense Advisor" image="headshots/tim.jpg" link="/investors/Tim-Chrisman" fontSize={'1.3rem'} />
+          <TeamMember name="Patrick Morselli" title="Growth & Operations Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
+          <TeamMember name="Dr. Joel Palathinkal" title="Strategy Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
         </div>
         <div className="team team4" data-aos="move">
-          <TeamMember name="Brandon Maier" title='Advisor' image="headshots/brandon.png" link="/investors/Brandon-Maier" />
-          <TeamMember name="Ian Arden" title='Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
-          <TeamMember name="Conor Patton" title='Advisor' image="headshots/conor.png" link="/investors/Conor-Patton" />
+          <TeamMember name="Alex Cornell du Houx" title="Defense & Energy Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'} />
+          <TeamMember name="Brandon Maier" title='Strategy Advisor' image="headshots/brandon.png" link="/investors/Brandon-Maier" />
+          <TeamMember name="Ian Arden" title='AI & Blockchain Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
+          <TeamMember name="Conor Patton" title='Late Stage Advisor' image="headshots/conor.png" link="/investors/Conor-Patton" />
         </div>
       </div>
       <GetUpdates />
@@ -158,15 +160,16 @@ const Team = (props) => {
   )
 }
 
-const TeamMember = ({ name, title, image, link, fontSize }) => {
+const TeamMember = ({ name, title, image, link, fontSize, fontSize0 }) => {
   fontSize = fontSize || '1.5rem'
+  fontSize0 = fontSize0 || '16px'
   return (
     <div className="team-info-container">
       <a href={link}><img src={`/${image}`} className='team-image' alt="image" /></a>
       <div className='team-member-info'>
         <div className='team-member-name'>
-          <span className="team-name" style={{fontSize: fontSize}}>{name}</span>
-          <span className="team-title">{title}</span>
+          <span className="team-name" style={{ fontSize: fontSize }}>{name}</span>
+          <span className="team-title" style={{ fontSize: fontSize0 }}>{title}</span>
         </div>
         <a href={link}>
           <div className='team-arrow-container'>

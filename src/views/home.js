@@ -133,15 +133,10 @@ const Home = (props) => {
             focusing on<br></br>exciting opportunities with established brands that have
             a proven track<br></br>record of pushing the limits of innovation and
             achieving success. We leverage<br></br>our massive A-list network of other
-            distinguished investors, esteemed<br></br>universities,<br></br>
-          </span>
-          <span>
+            distinguished investors, esteemed<br></br>universities,
             celebrities/pro-athletes, and influential members of Congress. By
-            fostering a thriving<br></br>
-          </span>
-          <span>
-            <br></br>ecosystem that transcends generations, we endeavor to bridge the gap
-            in<br></br>the venture world while creating entrepreneurial opportunities
+            fostering a thriving ecosystem that transcends generations, we endeavor to bridge the gap
+            in the venture world while creating entrepreneurial opportunities
             for the youth in underrepresented communities.
           </span>
         </span>
