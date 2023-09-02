@@ -138,8 +138,8 @@ const Team = (props) => {
         </div> */}
           <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.png" link="/investors/Christian-Elam" data-aos-anchor=".team3" />
           <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.png" link="/investors/eric-zhu" />
-          <TeamMember name="Chuck Figueroa" title="Partner" image="headshots/chuck.png" link="/investors/chuck-Figueroa" />
-          <TeamMember name="Kristin Stueben" title="Partner" image="headshots/kris.png" link="/investors/Kristin-Stueben" />
+          <TeamMember name="Chuck Figueroa" title="Venture Partner" image="headshots/chuck.png" link="/investors/chuck-Figueroa" />
+          <TeamMember name="Kristin Stueben" title="Venture Partner" image="headshots/kris.png" link="/investors/Kristin-Stueben" />
         </div>
         <div className="team team3" data-aos="move">
           <TeamMember name="Gleb Chuvpilo" title="Investment & Strategy Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" fontSize0={"15px"}/>

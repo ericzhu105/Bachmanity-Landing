@@ -132,7 +132,7 @@ const Home = (props) => {
             Bachmanity Capital is a Seed &amp; Series A focused generalist fund
             focusing on<br></br>exciting opportunities with established brands that have
             a proven track<br></br>record of pushing the limits of innovation and
-            achieving success. We leverage<br></br>our massive A-list network of other
+            achieving success. We leverage<br></br>our network of other
             distinguished investors, esteemed<br></br>universities,
             celebrities/pro-athletes, and influential members of Congress. By
             fostering a thriving ecosystem that transcends generations, we endeavor to bridge the gap
