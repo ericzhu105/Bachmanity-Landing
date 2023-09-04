@@ -72,6 +72,7 @@
 .team-image {
   width: 18rem;
   height: 20rem;
+  filter: grayscale(100%);
 }
 
 .team-member-info {
