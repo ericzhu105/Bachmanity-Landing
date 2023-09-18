@@ -142,15 +142,18 @@ const Team = (props) => {
           <TeamMember name="Kristin Stueben" title="Venture Partner" image="headshots/kris.png" link="/investors/Kristin-Stueben" />
         </div>
         <div className="team team3" data-aos="move">
-          <TeamMember name="Gleb Chuvpilo" title="Investment & Strategy Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" fontSize0={"15px"}/>
+          <TeamMember name="Gleb Chuvpilo" title="Investment & Strategy Advisor" image="headshots/gleb.png" link="/investors/Gleb-Chuvpilo" fontSize0={"15px"} />
           <TeamMember name="Tim Chrisman" title="Space & Defense Advisor" image="headshots/tim.jpg" link="/investors/Tim-Chrisman" fontSize={'1.3rem'} />
           <TeamMember name="Patrick Morselli" title="Growth & Operations Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
-          <TeamMember name="Dr. Joel Palathinkal" title="Strategy Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
+          <TeamMember name="Ellen McCarthy" title="National Security Advisor" image="headshots/McCarthy.png" link="/investors/Ellen-McCarthy" />
         </div>
         <div className="team team4" data-aos="move">
+          <TeamMember name="Dr. Joel Palathinkal" title="Strategy Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
           <TeamMember name="Alex Cornell du Houx" title="Defense & Energy Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'} />
           <TeamMember name="Brandon Maier" title='Strategy Advisor' image="headshots/brandon.png" link="/investors/Brandon-Maier" />
           <TeamMember name="Ian Arden" title='AI & Blockchain Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
+        </div>
+        <div className="team team5" data-aos="move">
           <TeamMember name="Conor Patton" title='Late Stage Advisor' image="headshots/conor.png" link="/investors/Conor-Patton" />
         </div>
       </div>
