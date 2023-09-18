@@ -57,7 +57,7 @@ const teamData = [
         "name": "Ellen McCarthy",
         "title": "National Security Advisor",
         "bio": "Ellen McCarthy is a distinguished figure with an illustrious career in the realm of intelligence and national security. With a commendable 20-year background in the intelligence community, she has made significant contributions to various crucial roles. Notably, she served as the Former Assistant Secretary of State for Intelligence and Research within the US Department of State, showcasing her expertise and leadership on a global stage. Her extensive experience also encompasses vital roles such as Director of Security, Operations, Intelligence, and Strategy for the Defense Intelligence Agency (DIA), as well as within the US Coast Guard Intelligence office and the US Naval Intelligence Office. Ellen's leadership acumen is further shone through her tenure as the Chief Operating Officer of the National Geospatial-Intelligence Agency and her role as the President of the Intelligence and National Security Alliance. Her remarkable career has left an indelible mark on the intelligence community and national security landscape.",
-        "image": "headshots/McCarthy.png",
+        "image": "headshots/ellen.png",
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/ellen-mccarthy-0ba3787",
     },
