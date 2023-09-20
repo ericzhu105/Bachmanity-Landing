@@ -54,14 +54,6 @@ const teamData = [
         "slug": "/investors/Tim-Chrisman"
     },
     {
-        "name": "Ellen McCarthy",
-        "title": "National Security Advisor",
-        "bio": "Ellen McCarthy is a distinguished figure with an illustrious career in the realm of intelligence and national security. With a commendable 20-year background in the intelligence community, she has made significant contributions to various crucial roles. Notably, she served as the Former Assistant Secretary of State for Intelligence and Research within the US Department of State, showcasing her expertise and leadership on a global stage. Her extensive experience also encompasses vital roles such as Director of Security, Operations, Intelligence, and Strategy for the Defense Intelligence Agency (DIA), as well as within the US Coast Guard Intelligence office and the US Naval Intelligence Office. Ellen's leadership acumen is further shone through her tenure as the Chief Operating Officer of the National Geospatial-Intelligence Agency and her role as the President of the Intelligence and National Security Alliance. Her remarkable career has left an indelible mark on the intelligence community and national security landscape.",
-        "image": "headshots/ellen.png",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/ellen-mccarthy-0ba3787",
-    },
-    {
         "name": "Patrick Morselli",
         "title": "Growth & Operations Advisor",
         "bio": "Patrick Morselli currently serves as the COO of Resilience Labs, a high growth venture backed startup that’s modernizing how clinicians work together to provide quality mental health care. Patrick was amongst the earliest employees at Uber & WeWork, serving as the Head of Global Expansion for both. He has worked with 15+ ventures across AI, consumer, prop-tech, and health-tech, impacting growth exponentially by executing seamlessly and attracting top talent. Patrick has invested in over 80 companies to date and is the founder & partner of Superlumnial Partners.",
@@ -114,28 +106,18 @@ const teamData = [
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/conor-patton-910401167/?originalSubdomain=uk",
         "slug": "/investors/Conor-Patton"
+    },
+    {
+        "name": "Ellen McCarthy",
+        "title": "National Security Advisor",
+        "bio": "Ellen McCarthy is a distinguished figure with an illustrious career in the realm of intelligence and national security. With a commendable 20-year background in the intelligence community, she has made significant contributions to various crucial roles. Notably, she served as the Former Assistant Secretary of State for Intelligence and Research within the US Department of State, showcasing her expertise and leadership on a global stage. Her extensive experience also encompasses vital roles such as Director of Security, Operations, Intelligence, and Strategy for the Defense Intelligence Agency (DIA), as well as within the US Coast Guard Intelligence office and the US Naval Intelligence Office. Ellen's leadership acumen is further shone through her tenure as the Chief Operating Officer of the National Geospatial-Intelligence Agency and her role as the President of the Intelligence and National Security Alliance. Her remarkable career has left an indelible mark on the intelligence community and national security landscape.",
+        "image": "headshots/ellen.png",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/ellen-mccarthy-0ba3787",
+        "slug": "/investors/Ellen-McCarthy"
     }
 ];
 
 export default teamData;
 
-
-
-// Patrick Morselli (COO @ Resilience Labs): Patrick Morselli currently serves as the COO of Resilience Labs, a high growth venture backed startup that’s modernizing how clinicians work together to provide quality mental health care. Patrick was amongst the earliest employees at Uber & WeWork, serving as the Head of Global Expansion for both. He has worked with 15+ ventures across AI, consumer, prop-tech, and health-tech, impacting growth exponentially by executing seamlessly and attracting top talent. Patrick has invested in over 80 companies to date and is the founder & partner of Superlumnial Partners.
-
-// Dr. Joel Palathinkal (CEO @ Sutton Capital): Dr. Joel Palathinkal is an active investor and entrepreneur. He's the CEO of Sutton Capital and an LP / Mentor to both emerging and institutional investment managers. Sutton Capital invests in opportunities focused on Real Estate, B2B SaaS, Deep Tech & Clean Energy / Infrastructure. Early in Joel’s career, he ran technology product innovation in Fintech, Artificial Intelligence, & for the Dept. of Defense. He completed his Ph.D in Modeling & Simulation while he was building flight simulators for the NAVY & DOD.
-
-
-
-
-
-// Alex Cornell du Houx (President @ EOPA): Alex Cornell du Houx was elected to the Maine House of Representatives and quickly became one of its most active members. Sponsoring and co-sponsoring 155 bills his first term, and 136 his second term. In total sponsoring 14 successful pieces of legislation and co-sponsoring 98 successful bills. Cornell du Houx founded Elected Officials to Protect America and Code Blue Water Security Conflicts and Solutions. He won the REED award for the best national Public Affairs Campaign for his work founding Operation Free, a coalition of veterans combating climate change with the Truman Project. Cornell du Houx participated and led State Department delegations to Southeast Asia to foster government-to-government relations, is a Huffington Post contributor, a Kentucky Colonel, a senior advisor and instructor to the Veterans Campaign, a member of the Global Advisory Council for the American Veteran’s Committee, Partner with the Truman National Security Project, a board member with the Solon Center for Research and Publishing, and founded the Maine New Leaders Council (NLC). Cornell du Houx teaches at the University of San Francisco and his trainings are requested worldwide. Alex is a certified trainer with NLC, The Truman National Security Project, and a leadership coach with ChoiceCenter Leadership University. Cornell du Houx served in the Marine Corps infantry as an assultman, for seven years and has deployed to Iraq and Afghanistan. He is currently a Public Affairs Officer with the Navy Reserve and is the President of Elected Officials to Protect America and Code Blue Water Security Solutions. Cornell du Houx graduated from Bowdoin College with Government and Legal Studies and Theater and holds a Masters in Public Leadership from the University of San Francisco.
-
-// Brandon Maier (GP @ LvlUp Ventures): Founder of LvlUp Ventures in Los Angeles and previously a Co-founder of Quake Capital, a venture capital fund and accelerator with offices in NYC, Los Angeles, and Austin. Quake has invested in 200+ companies with 9 portfolio exits to date. Named top 10 VCs in the world by Forbes and the #2 investor in female-founded companies by CrunchBase and most recently named #1 in worldwide diversity-based investments by BetaBoom
-
-
-
-
-// Ian Arden (GP @ Mempool Ventures): Ian Arden is the founder of Mempool Ventures and is an Abu Dhabi based AI & Web 3 investor. He is a serial entrepreneur and advisor to 20+ brands and has accelerated over 300 global blockchain ventures. Ian is a former developer with a $130M exit.
-// Conor Patton (Dir. of Strategy & Ops @ J.Stricher): Conor Patton has a wealth of international experience in M&A, Capital Markets, and Capital Raising across various sectors, including Real Estate and Technology. His direct and formal approach is particularly evident in his focus on investor relations, deal origination, execution, and management, and his knowledge of Private and Public markets is unparalleled. Conor has built a strong reputation in the industry, thanks to his well-connected network of clients and partners across Europe and the Middle East, which has been an integral part of his success in raising over $30 million and executing capital market deals worth over $200 million.
 
