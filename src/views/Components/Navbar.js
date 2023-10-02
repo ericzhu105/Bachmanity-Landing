@@ -10,7 +10,7 @@ export class Navbar extends Component {
     }
   
     const hideBurger = () => {
-      document.querySelector('.mobile-menu').style.display = 'none'
+      document.querySelector(".mobile-menu").style.display = "none";
     }
 
     return (
@@ -27,9 +27,9 @@ export class Navbar extends Component {
             <Link to="/portfolio" className="navlink2 textUnderline">
               Portfolio
             </Link>
-            <a href="https://www.joinaviato.com/bachmanity" className="navlink2 textUnderline">
+            {/* <a href="https://www.joinaviato.com/bachmanity" className="navlink2 textUnderline">
               Pitch Us
-            </a>
+            </a> */}
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSepLHPM8QgLsc3FXjDS9r2zgnAdoYqw5xu9ETgRa2vbwrQDEw/viewform" className="navlink2 textUnderline">
               Become An LP
             </a>

@@ -48,8 +48,8 @@ export class Footer extends Component {
               <span className="footer-text"><a href='mailto:christian@bachmanitycap.com?subject=Bachmanity%20Capital!'>Contact</a></span>
             </div>
             <div className="footer-company-container" style={{ marginRight: 0 }}>
-              <span className="footer-text"><a href='#'>Terms of Service</a></span>
-              <span className="footer-text"><a href='#'>Disclosures</a></span>
+              {/* <span className="footer-text"><a href='#'>Terms of Service</a></span> */}
+              {/* <span className="footer-text"><a href='#'>Disclosures</a></span> */}
             </div>
           </div>
         </div>

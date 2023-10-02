@@ -156,7 +156,7 @@ const Home = (props) => {
           </div>
           <div className="industry-text">
             <span className="home-text33">
-              We’re a generalist fund with past experience investing in Deep Tech, Space, B2B, Fintech, Consumer, AI, Prop Tech, Mental Health, and Entertainment
+              We’re a generalist fund with past experience investing in Deep Tech, Space, B2B, Fintech, AI, Prop Tech, and Mental Health
             </span>
           </div>
           <div className="separator" data-aos="fade-left" style={{ marginTop: 16, marginBottom: 16 }}></div>
