@@ -6,7 +6,18 @@ const GetUpdates = () => {
     const [submitted, setSubmitted] = useState(false);
     const submit = (e) => {
       e.preventDefault();
-      // check if request was successful
+      // make the form submission here
+      // action="https://getform.io/f/73bdb946-e45e-40f4-9af7-9815556cba9d" method="POST"
+
+      fetch('https://getform.io/f/73bdb946-e45e-40f4-9af7-9815556cba9d', {
+        method: 'POST',
+        body: new FormData(e.target)
+      })
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(err => console.log(err));
+      
+
       if (e.target[0].value != '') {
         setSubmitted(true);
         console.log('success');
@@ -22,7 +33,7 @@ const GetUpdates = () => {
             can expect an email about once every quarter!
           </span>
         </div>
-        {!submitted && <form onSubmit={submit} action="https://getform.io/f/73bdb946-e45e-40f4-9af7-9815556cba9d" method="POST">
+        {!submitted && <form onSubmit={submit}>
         <div className='get-input'>
           <input
             type="email"
