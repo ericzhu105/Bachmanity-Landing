@@ -72,6 +72,15 @@ const teamData = [
         "slug": "/investors/Joel-Palathinkal"
     },
     {
+        "name": "Kristin Wood",
+        "title": "National Security Advisor",
+        "bio": "Kristin Wood is a former senior CIA officer known for building high-performance teams in operations, analysis, and technology.  Since leaving the CIA, Kristin has founded or led multiple security and information services companies, including the Grist Mill Exchange – a leading provider of open-source intelligence services to the US government.  She is an expert in open source and analyzing and combating disinformation on a global scale, frequently speaking and writing about these and other topics.  She advises both venture capital firms looking for new portfolio companies and start-ups looking to move into public sector markets.",
+        "image": "headshots/kristinw.png",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/kristin-wood-0555ba1a5",
+        "slug": "/investors/Kristin-Wood"
+    },
+    {
         "name": "Alex Cornell du Houx",
         "title": "Defense & Energy Advisor",
         "bio": "Alex Cornell du Houx was elected to the Maine House of Representatives and quickly became one of its most active members. Sponsoring and co-sponsoring 155 bills his first term, and 136 his second term. In total sponsoring 14 successful pieces of legislation and co-sponsoring 98 successful bills. Cornell du Houx founded Elected Officials to Protect America and Code Blue Water Security Conflicts and Solutions. He won the REED award for the best national Public Affairs Campaign for his work founding Operation Free, a coalition of veterans combating climate change with the Truman Project. Cornell du Houx participated and led State Department delegations to Southeast Asia to foster government-to-government relations, is a Huffington Post contributor, a Kentucky Colonel, a senior advisor and instructor to the Veterans Campaign, a member of the Global Advisory Council for the American Veteran’s Committee, Partner with the Truman National Security Project, a board member with the Solon Center for Research and Publishing, and founded the Maine New Leaders Council (NLC). Cornell du Houx teaches at the University of San Francisco and his trainings are requested worldwide. Alex is a certified trainer with NLC, The Truman National Security Project, and a leadership coach with ChoiceCenter Leadership University. Cornell du Houx served in the Marine Corps infantry as an assultman, for seven years and has deployed to Iraq and Afghanistan. He is currently a Public Affairs Officer with the Navy Reserve and is the President of Elected Officials to Protect America and Code Blue Water Security Solutions. Cornell du Houx graduated from Bowdoin College with Government and Legal Studies and Theater and holds a Masters in Public Leadership from the University of San Francisco.",
@@ -79,6 +88,15 @@ const teamData = [
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/cornellalex/",
         "slug": "/investors/Alex-Cornell"
+    },
+    {
+        "name": "Maria Leister, JD",
+        "title": "Bioethics/Genomics Advisor",
+        "bio": "Maria is a Bioethicist and Professor of Bioethics, currently serving as the Director of the Harvard Program in Refugee Trauma, an NGO based at Harvard Medical School. With a rich professional history, Maria has held key roles such as leading leadership development training at Kotter International, a management consulting and strategy implementation firm and serving as the former Director of a clinical program at Harvard Law School. Her impact extends to leading organizational effectiveness initiatives at institutions, including Harvard University, FIFA, and UNICEF. Maria's current expertise lies in immigration law, asylum, and refugee policies, with a specialized focus on understanding the psychological impact of forced displacement and migration.",
+        "image": "headshots/maria.png",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/marialeister",
+        "slug": "/investors/Maria-Leister"
     },
     {
         "name": "Brandon Maier",

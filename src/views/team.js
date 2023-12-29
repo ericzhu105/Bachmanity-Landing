@@ -30,7 +30,9 @@ const Team = (props) => {
       '/brandon.png',
       '/ian.png',
       '/conor.png',
-      "/tim.jpg"
+      "/tim.jpg",
+      "/kristinw.jpeg",
+      "maria.jpeg"
     ];
 
     const images = [];
@@ -75,67 +77,6 @@ const Team = (props) => {
       <div className='holder'>
         <div className="team-separator"></div>
         <div className="team" data-aos="move">
-          {/* <a href="/investors/Christian-Elam">
-        <div className="team-elam" id="team-elam" href="/investors/Christian-Elam">
-          <div className="team-container03">
-            <span className="elam-text01">Christian Elam</span>
-            <span className="elam-hide">FOUNDING GENERAL PARTNER</span>
-          </div>
-            <img src={"/elam.png"}  className='elam-image' alt="image" id="elam-image"/>
-          <span className="elam-text02">FOUNDING GENERAL PARTNER</span>
-            <img className='elam-arrow' src={"/arrow-right.png"}></img>
-        </div>
-        </a>
-        <div className="team-separator"></div>
-        <a href="/investors/eric-zhu">
-          <div className="team-eric">
-          <div className="team-container05">
-            <span className="eric-text01">Eric Zhu</span>
-            <span className="eric-hide">GENERAL PARTNER</span>
-          </div>
-              <img src={"/eric.png"} alt="image" id="eric-image" className='eric-image'/>
-          <span className="eric-text02">GENERAL PARTNER</span>
-          <img src={"/arrow-right.png"} className='eric-arrow'></img>
-        </div>
-        </a>
-        <div className="team-separator"></div>
-        <a href="/investors/chuck-Figueroa">
-        <div className="team-chuck">
-          <div className="team-container07">
-            <span className="chuck-text01">Chuck Figueroa</span>
-            <span className="chuck-hide">PARTNER</span>
-          </div>
-            <img src={"/chuck.png"} className='chuck-image' alt="image" id="chuck-image"/>
-          <span className="chuck-text02">PARTNER</span>
-            <img src={"/arrow-right.png"} className="chuck-arrow"></img>
-        </div>
-        </a>
-        <div className="team-separator"></div>
-        <a href="/investors/Kristin-Stueben">
-        <div className="team-kris">
-          <div className="team-container09">
-            <span className="kris-text01">Kristin Stueben</span>
-            <span className="kris-hide">PARTNER</span>
-          </div>
-            <img src={"/kris.png"}  className='kris-image' alt="image" id="kris-image" />
-          <span className="kris-text02">PARTNER</span>
-            <img src={"/arrow-right.png"} className="kris-arrow"></img>
-        </div>
-        </a> */}
-          {/* <div className="team-info-container">
-          <img src={"/elam.png"} className='team-image' alt="image" />
-          <div className='team-member-info'>
-            <div className='team-member-name'>
-              <span className="team-name">Christian Elam</span>
-              <span className="team-title">Founding General Partner</span>
-            </div>
-            <div className='team-arrow-container'>
-              <svg className="team-arrow" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.41663 16.4295L15.5833 7.26288M15.5833 7.26288H6.41663M15.5833 7.26288V16.4295" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
-          </div>
-        </div> */}
           <TeamMember name="Christian Elam" title="Founding General Partner" image="headshots/elam.png" link="/investors/Christian-Elam" data-aos-anchor=".team3" />
           <TeamMember name="Eric Zhu" title="General Partner" image="headshots/eric.png" link="/investors/eric-zhu" />
           <TeamMember name="Chuck Figueroa" title="Venture Partner" image="headshots/chuck.png" link="/investors/chuck-Figueroa" />
@@ -149,11 +90,13 @@ const Team = (props) => {
         </div>
         <div className="team team4" data-aos="move">
           <TeamMember name="Dr. Joel Palathinkal" title="Strategy Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
+          <TeamMember name="Kristin Wood" title="National Security Advisor" image="headshots/kristinw.png" link="/investors/Kristin-Wood" />
           <TeamMember name="Alex Cornell du Houx" title="Defense & Energy Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'} />
-          <TeamMember name="Brandon Maier" title='Strategy Advisor' image="headshots/brandon.png" link="/investors/Brandon-Maier" />
-          <TeamMember name="Ian Arden" title='AI & Blockchain Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
+          <TeamMember name="Maria Leister, JD" title="Bioethics/Genomics Advisor" image="headshots/maria.png" link="/investors/Maria-Leister" />
         </div>
         <div className="team team5" data-aos="move">
+          <TeamMember name="Brandon Maier" title='Strategy Advisor' image="headshots/brandon.png" link="/investors/Brandon-Maier" />
+          <TeamMember name="Ian Arden" title='AI & Blockchain Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
           <TeamMember name="Conor Patton" title='Late Stage Advisor' image="headshots/conor.png" link="/investors/Conor-Patton" />
         </div>
       </div>
