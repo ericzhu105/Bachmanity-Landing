@@ -17,24 +17,24 @@ const teamData = [
         "linkedin": "https://www.linkedin.com/in/ericzhu105/",
         "slug": "/investors/Eric-Zhu"
     },
-    {
-        "name": "Chuck Figueroa",
-        "title": "Venture Partner",
-        "bio": "Chuck is a corporate strategist, sports endorsement agent, and angel investor. He received his BA for the University of California, Los Angeles. Chuck began his career in public relations which led him into the sports industry and has executed global partnerships with the elite NBA, NFL, and Olympic athletes. Chuck currently sits on the board and advises a global ecosystem in media, technology and venture capital at the intersection of innovation and legacy.",
-        "image": "headshots/chuck.png",
-        "twitter": "https://twitter.com/Chuck_LA",
-        "linkedin": "https://www.linkedin.com/in/chuckfigueroa1/",
-        "slug": "/investors/Chuck-Figueroa"
-    },
-    {
-        "name": "Kristin Stueben",
-        "title": "Venture Partner",
-        "bio": "Kristin is a serial entrepreneur, angel investor, creative director, and influencer. She cofounded Maxus Nails, a very successful proprietary nail product winning the Allure Beauty Award, featured in Vogue, InStyle, ELLE, Cosmopolitan, and more. She cofounded Cerebral Agency focusing on celebrity endorsements, tech, and venture capital. Kristin is also on the advisory board of We Empower Women.",
-        "image": "headshots/kris.png",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/kristin-stueben-10012840/",
-        "slug": "/investors/Kristin-Stueben"
-    },
+    // {
+    //     "name": "Chuck Figueroa",
+    //     "title": "Venture Partner",
+    //     "bio": "Chuck is a corporate strategist, sports endorsement agent, and angel investor. He received his BA for the University of California, Los Angeles. Chuck began his career in public relations which led him into the sports industry and has executed global partnerships with the elite NBA, NFL, and Olympic athletes. Chuck currently sits on the board and advises a global ecosystem in media, technology and venture capital at the intersection of innovation and legacy.",
+    //     "image": "headshots/chuck.png",
+    //     "twitter": "https://twitter.com/Chuck_LA",
+    //     "linkedin": "https://www.linkedin.com/in/chuckfigueroa1/",
+    //     "slug": "/investors/Chuck-Figueroa"
+    // },
+    // {
+    //     "name": "Kristin Stueben",
+    //     "title": "Venture Partner",
+    //     "bio": "Kristin is a serial entrepreneur, angel investor, creative director, and influencer. She cofounded Maxus Nails, a very successful proprietary nail product winning the Allure Beauty Award, featured in Vogue, InStyle, ELLE, Cosmopolitan, and more. She cofounded Cerebral Agency focusing on celebrity endorsements, tech, and venture capital. Kristin is also on the advisory board of We Empower Women.",
+    //     "image": "headshots/kris.png",
+    //     "twitter": "",
+    //     "linkedin": "https://www.linkedin.com/in/kristin-stueben-10012840/",
+    //     "slug": "/investors/Kristin-Stueben"
+    // },
     {
         "name": "Gleb Chuvpilo",
         "title": "Investment & Strategy Advisor",
@@ -98,15 +98,15 @@ const teamData = [
         "linkedin": "https://www.linkedin.com/in/marialeister",
         "slug": "/investors/Maria-Leister"
     },
-    {
-        "name": "Brandon Maier",
-        "title": "Strategy Advisor",
-        "bio": "Founder of LvlUp Ventures in Los Angeles and previously a Co-founder of Quake Capital, a venture capital fund and accelerator with offices in NYC, Los Angeles, and Austin. Quake has invested in 200+ companies with 9 portfolio exits to date. Named top 10 VCs in the world by Forbes and the #2 investor in female-founded companies by CrunchBase and most recently named #1 in worldwide diversity-based investments by BetaBoom",
-        "image": "headshots/brandon.png",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/brandontmaier/",
-        "slug": "/investors/Brandon-Maier"
-    },
+    // {
+    //     "name": "Brandon Maier",
+    //     "title": "Strategy Advisor",
+    //     "bio": "Founder of LvlUp Ventures in Los Angeles and previously a Co-founder of Quake Capital, a venture capital fund and accelerator with offices in NYC, Los Angeles, and Austin. Quake has invested in 200+ companies with 9 portfolio exits to date. Named top 10 VCs in the world by Forbes and the #2 investor in female-founded companies by CrunchBase and most recently named #1 in worldwide diversity-based investments by BetaBoom",
+    //     "image": "headshots/brandon.png",
+    //     "twitter": "",
+    //     "linkedin": "https://www.linkedin.com/in/brandontmaier/",
+    //     "slug": "/investors/Brandon-Maier"
+    // },
     {
         "name": "Ian Arden",
         "title": "AI & Blockchain Advisor",
@@ -116,15 +116,15 @@ const teamData = [
         "linkedin": "https://www.linkedin.com/in/ian-arden/?originalSubdomain=ae",
         "slug": "/investors/Ian-Arden"
     },
-    {
-        "name": "Conor Patton",
-        "title": "Late Stage Advisor",
-        "bio": "Conor Patton has a wealth of international experience in M&A, Capital Markets, and Capital Raising across various sectors, including Real Estate and Technology. His direct and formal approach is particularly evident in his focus on investor relations, deal origination, execution, and management, and his knowledge of Private and Public markets is unparalleled. Conor has built a strong reputation in the industry, thanks to his well-connected network of clients and partners across Europe and the Middle East, which has been an integral part of his success in raising over $30 million and executing capital market deals worth over $200 million.",
-        "image": "headshots/conor.png",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/conor-patton-910401167/?originalSubdomain=uk",
-        "slug": "/investors/Conor-Patton"
-    },
+    // {
+    //     "name": "Conor Patton",
+    //     "title": "Late Stage Advisor",
+    //     "bio": "Conor Patton has a wealth of international experience in M&A, Capital Markets, and Capital Raising across various sectors, including Real Estate and Technology. His direct and formal approach is particularly evident in his focus on investor relations, deal origination, execution, and management, and his knowledge of Private and Public markets is unparalleled. Conor has built a strong reputation in the industry, thanks to his well-connected network of clients and partners across Europe and the Middle East, which has been an integral part of his success in raising over $30 million and executing capital market deals worth over $200 million.",
+    //     "image": "headshots/conor.png",
+    //     "twitter": "",
+    //     "linkedin": "https://www.linkedin.com/in/conor-patton-910401167/?originalSubdomain=uk",
+    //     "slug": "/investors/Conor-Patton"
+    // },
     {
         "name": "Ellen McCarthy",
         "title": "National Security Advisor",
