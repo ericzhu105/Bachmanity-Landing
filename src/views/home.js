@@ -116,28 +116,13 @@ const Home = (props) => {
             <br></br>
           </span>
           <div className="home-text17" data-aos="move" data-aos-anchor=".home-investment-criteria">
-            Bachmanity Capital is a Seed & Series A focused generalist fund focusing on
-            exciting opportunities with established brands that have a proven track
-            record of pushing the limits of innovation and achieving success. We leverage
-            our network of other distinguished investors, esteemed
-            universities, celebrities/pro-athletes, and influential members of Congress.
-            By fostering a thriving ecosystem that transcends generations, we endeavor
-            to bridge the gap in the venture world while creating entrepreneurial
-            opportunities for the youth in underrepresented communities.
+          Bachmanity Capital is a bold Seed & Series A venture capital firm fueling innovation at the intersection of Deep Tech, Space, Defense, and B2B solutions with strong government application potential. We back visionary founders building the next generation of technologies pushing the boundaries of robotics, artificial intelligence, cybersecurity, infrastructure, and more. Driven by a powerful network of experienced investors, leading universities, influential figures, and a deep commitment to inclusivity, we bridge the gap in the venture landscape while empowering entrepreneurial aspirations in underrepresented communities.
           </div>
           <Link to="/team"><button data-aos="move" data-aos-anchor=".home-investment-criteria" className="home-button2 button">More About Us <svg className="wide-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 23" fill="none"> <path d="M6.41675 16.0834L15.5834 6.91675M15.5834 6.91675H6.41675M15.5834 6.91675V16.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /> </svg></button></Link>
         </div>
         <span data-aos="move" className="home-text20" data-aos-anchor=".home-investment-criteria">
           <span>
-            Bachmanity Capital is a Seed &amp; Series A focused generalist fund
-            focusing on<br></br>exciting opportunities with established brands that have
-            a proven track<br></br>record of pushing the limits of innovation and
-            achieving success. We leverage<br></br>our network of other
-            distinguished investors, esteemed<br></br>universities,
-            celebrities/pro-athletes, and influential members of Congress. By
-            fostering a thriving ecosystem that transcends generations, we endeavor to bridge the gap
-            in the venture world while creating entrepreneurial opportunities
-            for the youth in underrepresented communities.
+          Bachmanity Capital is a bold Seed & Series A venture capital firm fueling innovation at the intersection of Deep Tech, Defense, and B2B solutions with strong government application potential. We back visionary founders building the next generation of technologies pushing the boundaries of robotics, artificial intelligence, cybersecurity, infrastructure, and more. Driven by a powerful network of experienced investors, leading universities, influential figures, and a deep commitment to inclusivity, we bridge the gap in the venture landscape while empowering entrepreneurial aspirations in underrepresented communities.
           </span>
         </span>
       </div>
