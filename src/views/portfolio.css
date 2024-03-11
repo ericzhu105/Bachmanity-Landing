@@ -327,7 +327,7 @@
   }
 
   .portfolio-container01 {
-    margin: 0;
+    margin:0;
   }
 
   .portfolio-logo1 {
@@ -337,5 +337,88 @@
 
   .portfolio-text07 {
     font-size: 2rem;
+  }
+}
+
+.flex-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.website-link {
+  color: #1D1814;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.website-link:hover {
+  color: #51B46B;
+}
+
+.flex-container {
+      font-family: "Roobert-Regular", sans-serif;
+ margin: 40px 0px;
+  border-top: 1px solid #1D1814;
+  display: flex;
+  padding-top: 8px;
+  flex-direction: row;
+  text-align: left;
+    font-size: 13px;
+    align-items: center;
+    color: #1D1814;
+}
+
+.flex-investment {
+    line-height: 100%;
+      font-family: "RecklessNeue-Thin", sans-serif;
+  font-size: 52px;
+  flex: 50%;
+}
+
+.flex-stage {
+  padding: 10px;
+  flex: 20%;
+   align-self: start;
+  
+}
+
+.stage {
+  border: 1px solid #0B674E;
+  color: #0B674E;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 20px 5px 20px;
+}
+
+.flex-link {
+  padding: 10px;
+  flex: 30%;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: start;
+}
+  
+  @media screen and (max-width:950px) {
+   
+    
+    .flex-investment {
+     font-size: 31px;
+  flex: 50%;
+}
+    .stage {
+    display: none;
+    }
+    
+    @media screen and (max-width:400px) {
+    .flex-investment {
+      font-family: "Roobert-Regular", sans-serif;
+      font-size: 18px;
+    }
+    .flex-link {
+      flex:50%;
+    }
   }
 }
