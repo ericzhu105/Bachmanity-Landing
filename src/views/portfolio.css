@@ -345,54 +345,39 @@
   flex-direction: column;
 }
 
-.website-link {
-  color: #1D1814;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.website-link:hover {
-  color: #51B46B;
-}
-
 .flex-container {
-      font-family: "Roobert-Regular", sans-serif;
- margin: 40px 0px;
+  font-family: "Roc Grotesk", sans-serif;
+  margin: 40px 0px;
   border-top: 1px solid #1D1814;
   display: flex;
   padding-top: 8px;
   flex-direction: row;
   text-align: left;
-    font-size: 13px;
-    align-items: center;
-    color: #1D1814;
+  font-size: 13px;
+  align-items: center;
+  color: #1D1814;
+  justify-content: space-between;
 }
 
 .flex-investment {
-    line-height: 100%;
-      font-family: "RecklessNeue-Thin", sans-serif;
+  line-height: 100%;
+  font-family: "Roc Grotesk", sans-serif;
   font-size: 52px;
   flex: 50%;
+  width: fit-content;
 }
 
-.flex-stage {
+.flex-descp {
   padding: 10px;
-  flex: 20%;
-   align-self: start;
-  
-}
-
-.stage {
-  border: 1px solid #0B674E;
-  color: #0B674E;
+  /* flex: 30%; */
   text-align: center;
-  display: inline-block;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding: 5px 20px 5px 20px;
+  align-self: start;
+  width: 28rem;
 }
 
-.flex-link {
+.flex-fund {
   padding: 10px;
   flex: 30%;
   text-align: right;
@@ -414,7 +399,7 @@
     
     @media screen and (max-width:400px) {
     .flex-investment {
-      font-family: "Roobert-Regular", sans-serif;
+      font-family: "Roc Grotesk", sans-serif;
       font-size: 18px;
     }
     .flex-link {

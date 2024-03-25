@@ -9,12 +9,12 @@ import GetUpdates from './Components/GetUpdates'
 import { Footer } from './Components/Footer'
 
 const companies = [
-  { name: 'Promly', href: 'https://www.promly.org/', image: '/companies/promly.svg' },
-  { name: 'Pipe', href: 'https://pipe.com/', image: '/companies/pipe.svg' },
-  { name: 'Housr', href: 'https://www.housrapp.co.uk/', image: '/companies/housr.svg' },
-  { name: 'Radian Aerospace', href: 'https://www.radianaerospace.com/', image: '/companies/radian.svg' },
-  { name: 'JuneShine', href: 'https://juneshine.com/', image: '/companies/june.svg', className: 'june' },
-  { name: 'Rentberry', href: 'https://rentberry.com/', image: '/companies/rentberry.svg' },
+  { name: 'Promly', href: 'https://www.promly.org/', image: '/companies/promly.svg', descp: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", fund: "FUND II" },
+  { name: 'Pipe', href: 'https://pipe.com/', image: '/companies/pipe.svg', descp: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", fund: "FUND II" },
+  { name: 'Housr', href: 'https://www.housrapp.co.uk/', image: '/companies/housr.svg', descp: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", fund: "FUND II" },
+  { name: 'Radian Aerospace', href: 'https://www.radianaerospace.com/', image: '/companies/radian.svg', descp: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", fund: "FUND II" },
+  { name: 'JuneShine', href: 'https://juneshine.com/', image: '/companies/june.svg', className: 'june', descp: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", fund: "FUND II" },
+  { name: 'Rentberry', href: 'https://rentberry.com/', image: '/companies/rentberry.svg', descp: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", fund: "FUND II" },
 ];
 
 const Portfolio = (props) => {
@@ -30,7 +30,7 @@ const Portfolio = (props) => {
       </Helmet>
       <Navbar />
      
-      <div className="portfolio-container01" data-aos="fade-in">
+      <div className="portfolio-cont</div>ainer01" data-aos="fade-in">
         <h1 className="portfolio-text07">Portfolio</h1>
         <span className="portfolio-text08">
           Some companies we&apos;ve backed
@@ -40,14 +40,17 @@ const Portfolio = (props) => {
 
       <div className="flex-columns">
       {companies.map((company) => (
+        <a href={company.href} target="_blank">
         <div className="flex-container" key={company.name}>
           <div className="flex-investment">{company.name}</div>
-          <div className="flex-link">
-            <a className="website-link" href={company.href} target="_blank">
-              Website
-            </a>
+          <div className="flex-descp">
+            <span>{company.descp}</span>
           </div>
+          <div className="flex-fund">
+            <span>{company.fund}</span>
+            </div>
         </div>
+        </a>
       ))}
     </div>
       
