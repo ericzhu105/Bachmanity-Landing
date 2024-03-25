@@ -9,9 +9,12 @@ import GetUpdates from './Components/GetUpdates'
 import { Footer } from './Components/Footer'
 
 const companies = [
+  { name: 'Housr', href: 'https://www.housrapp.co.uk/', image: '/companies/housr.svg' },
+  {name: 'Interlune', href: 'https://www.interlune.space/', image: '/companies/interlune.svg'},
+  {name: 'Aviato', href:"https://www.aviato.co/", image: '/companies/aviato.svg'},
+  {name: 'Inversion', href:"https://www.inversion.co/", image: '/companies/inversion.svg'},
   { name: 'Promly', href: 'https://www.promly.org/', image: '/companies/promly.svg' },
   { name: 'Pipe', href: 'https://pipe.com/', image: '/companies/pipe.svg' },
-  { name: 'Housr', href: 'https://www.housrapp.co.uk/', image: '/companies/housr.svg' },
   { name: 'Radian Aerospace', href: 'https://www.radianaerospace.com/', image: '/companies/radian.svg' },
   { name: 'JuneShine', href: 'https://juneshine.com/', image: '/companies/june.svg', className: 'june' },
   { name: 'Rentberry', href: 'https://rentberry.com/', image: '/companies/rentberry.svg' },
@@ -37,19 +40,6 @@ const Portfolio = (props) => {
         </span>
 
       </div>
-
-      <div className="flex-columns">
-      {companies.map((company) => (
-        <div className="flex-container" key={company.name}>
-          <div className="flex-investment">{company.name}</div>
-          <div className="flex-link">
-            <a className="website-link" href={company.href} target="_blank">
-              Website
-            </a>
-          </div>
-        </div>
-      ))}
-    </div>
       
       {/* <div className="grid-container" data-aos="fade-in">
         <div className="grid-item"><a href='https://www.promly.org/' target="_blank"><img src={"/companies/promly.svg"} alt="image"/></a></div>
@@ -59,6 +49,18 @@ const Portfolio = (props) => {
         <div className="grid-item"><a href='https://juneshine.com/' target='_blank'><img className="june" src={"/companies/june.svg"} alt="image"/></a></div>
         <div className="grid-item"><a href='https://rentberry.com/' target='_blank'><img src={"/companies/rentberry.svg"} alt="image"/></a></div>
       </div> */}
+
+      {/* create a new grid-container that traveres the area instead of manually showing each grid */}
+      <div className="grid-container" data-aos="fade-in">
+        {companies.map((company) => (
+          <div className="grid-item" key={company.name}>
+            <a href={company.href || '#'} target="_blank">
+              <img src={company.image} alt={company.name} className={company.className} /> 
+            </a>
+          </div>
+        ))}
+      </div>
+
       <GetUpdates />
       <Footer />
     </div>
