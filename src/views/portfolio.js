@@ -12,12 +12,12 @@ const companies = [
   { name: 'Housr', href: 'https://www.housrapp.co.uk/', image: '/companies/housr.svg' },
   {name: 'Interlune', href: 'https://www.interlune.space/', image: '/companies/interlune.svg'},
   {name: 'Aviato', href:"https://www.aviato.co/", image: '/companies/aviato.svg'},
-  {name: 'Inversion', href:"https://www.inversion.co/", image: '/companies/inversion.svg'},
-  { name: 'Promly', href: 'https://www.promly.org/', image: '/companies/promly.svg' },
-  { name: 'Pipe', href: 'https://pipe.com/', image: '/companies/pipe.svg' },
-  { name: 'Radian Aerospace', href: 'https://www.radianaerospace.com/', image: '/companies/radian.svg' },
-  { name: 'JuneShine', href: 'https://juneshine.com/', image: '/companies/june.svg', className: 'june' },
-  { name: 'Rentberry', href: 'https://rentberry.com/', image: '/companies/rentberry.svg' },
+  {name: 'Inversion', href:"https://www.inversionspace.com/", image: '/companies/inversion.svg'}
+  // { name: 'Promly', href: 'https://www.promly.org/', image: '/companies/promly.svg' },
+  // { name: 'Pipe', href: 'https://pipe.com/', image: '/companies/pipe.svg' },
+  // { name: 'Radian Aerospace', href: 'https://www.radianaerospace.com/', image: '/companies/radian.svg' },
+  // { name: 'JuneShine', href: 'https://juneshine.com/', image: '/companies/june.svg', className: 'june' },
+  // { name: 'Rentberry', href: 'https://rentberry.com/', image: '/companies/rentberry.svg' },
 ];
 
 const Portfolio = (props) => {

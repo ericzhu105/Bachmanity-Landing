@@ -42,20 +42,23 @@
   grid-column-gap: 0em;
   grid-row-gap: 0em;
   grid-template-rows: auto auto;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  /* grid-template-columns: 20% 20% 20% 20% 20%; */
+  grid-template-columns: 20% 20% 20% 20%;
   grid-auto-columns: 1fr;
   grid-auto-flow: row;
   display: grid;
   margin-top: 1rem;
-
+  margin-bottom: 1rem;
+  justify-content: space-between;
 }
 
 .grid-item {
  /* round borders */
   border-radius: 50px;
   border: 1px solid white;
-  padding: 30px;
-  margin-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 20px;
   text-align: center;
   display: flex;
   align-items: center;
