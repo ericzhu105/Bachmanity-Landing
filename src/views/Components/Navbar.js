@@ -53,10 +53,7 @@ export class Navbar extends Component {
             <nav className="mobile-links1">
               <Link to="/" className="mobile-text">Home</Link>
               <Link to="/team" className="mobile-text">Team</Link>
-              <Link to="/portfolio" className="mobile-text">Portoflio</Link>
-              <a href="https://www.joinaviato.com/bachmanity" className="mobile-text">
-                Pitch Us
-              </a>
+              <Link to="/portfolio" className="mobile-text">Portfolio</Link>
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSepLHPM8QgLsc3FXjDS9r2zgnAdoYqw5xu9ETgRa2vbwrQDEw/viewform' className="mobile-text">
               Become An LP
             </a>
