@@ -133,9 +133,34 @@ const teamData = [
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/ellen-mccarthy-0ba3787",
         "slug": "/investors/Ellen-McCarthy"
+    },
+    {
+        "name": "Dr. Christyl Johnson",
+        "title": "Space Advisor",
+        "bio": "Dr. Chrisyl Johnson currently serves as the Deputy Director of Technology and Research Investments at NASA, responsible for formulating future science missions and technology goals and objectives. She is also in charge of NASA’s 2040 project. Johnson came to NASA Goddard from the White House Office of Science and Technology Policy, where she served under the President’s science adviser as the executive director of the National Science and Technology Council (NSTC), which is the principal means within the executive branch to coordinate science and technology policy across the Federal research and development enterprise. She was responsible for ensuring the establishment of clear national goals for Federal science and technology investments in a broad array of areas across the executive branch, including basic science, technology, energy, environment, natural resources, and homeland and national security. Prior to joining the White House staff, Johnson served as the assistant associate administrator in NASA’s Office of the Administrator. In this role, she and the associate administrator provided the oversight of the agency’s technical mission areas and field center operations. Johnson came to the Office of the Administrator from the Office of the Chief Engineer, where she served as the deputy chief engineer for program integration and operations. There, she provided an integrated focus for the development, maintenance, and implementation of agency engineering and program/project management policies, standards, and practices. Prior to her appointment to the Office of the Chief Engineer, Johnson served as the associate director for exploratory missions in the Office of Earth Science, where she managed the formulation and development for all exploratory missions. The missions that she managed included QuikToms, GRACE, CLOUDSAT, Triana, AQUARIUS, HYDROS and OCO, and involved mission development activities at Jet Propulsion Laboratory, Goddard Space Flight Center, Langley Research Center and several international and industry partners.",
+        "image": "headshots/christyl.jpg",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/christyl-johnson-1091256",
+        "slug": "/investors/Christyl-Johnson"
+    },
+    {
+        "name": "Danny Ludeman",
+        "title": "Investment Advisor",
+        "bio": "Danny Ludeman, former president and CEO of Wells Fargo Advisors, provided executive leadership for the nation’s third largest full-service brokerage firm. during his tenure, revenues increased from $300 million to over $10 billion, profits from $35 million to $2 billion, and financial advisors from 950 to more than 17,000 in some 4,000 locations nationwide. Danny began his career with Virginia-based brokerage firm Wheat First Securities. Through acquisitions and mergers, he held positions of increasing responsibility within several areas of the organization before holding the position of President and CEO from 1999 through his retirement in 2014. Following Wells Fargo’s acquisition of Wachovia Corporation in 2008, he was appointed to the Management Committee of Wells Fargo & Company. Active in industry and civic affairs, he serves or has served, on the boards of the Securities Industry Association (as Chairman the last two years he was on the board), United Way of Greater St. Louis, Stifel, Missouri Botanical Garden, The Muny, CityArchRiver 2015, Washington University in St. Louis, University of Richmond, Urban League of Metropolitan St. Louis, Federal Reserve Bank of St. Louis, Opera Theatre of St. Louis, Variety – the Children’s Charity, and Eskimo Pie. Ludeman also chaired the St. Louis Regional Chamber and Growth Association and was a member of Civic Progress, St. Louis. Danny is the President and CEO of Concordance, an expansion of Project COPE, which assists individuals in successfully re-integrating into society from prison. This nonprofit is the first of its kind in America, a true public, private, and academic partnership offering holistic, integrated services including cognitive behavioral programs, mental health and substance abuse treatment, employment readiness, employment, housing and mentoring. It will help restore thousands of individuals, families and communities thus contributing to the safety and vitality of the St. Louis community. He is currently raising $1B to expand this program nationally. Danny earned a Masters degree in Business Administration from William and Mary and a Bachelor of Science degree in Economics from Virginia Commonwealth.",
+        "image": "headshots/danny.jpg",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/danny-ludeman-29294797",
+        "slug": "/investors/Danny-Ludeman"
+    },
+    {
+        "name": "Jody Weiss",
+        "title": "Strategy & Impact Advisor",
+        "bio": "Jody Weiss - Strategy & Impact Advisor Jody is an Operating Partner with Chloe Capital, a diverse investment fund for women in SaaS technologies with a focus on climate and solutions for humanity. She is also the Founder of Women Funding the World, a gathering of women investors and men who support moving more capital to diversity. Jody is a co-host of a podcast with Dr. David Schwartz, a neuroscientist, called \"Exploring Reality, Maybe,\" where they explore what the mind, intellect, and ego might be, what reality might be, and how to play with perception, identity and the ego. Jody has worked on projects with iconic institutions such as the World Bank, UNIFEM, UN's World Food Programme, COP28, and many others. Jody founded PeaceKeeper™ Cause-Metics™ in April 2002 and served as the company’s lead voice and spokesperson. PeaceKeeper was one of the first cosmetic companies to give restricted donations to women’s health advocacy and human rights issues. The brand was nominated as a finalist for “Best Lip Product of the Year” and launched a lip gloss with the United Nations called PeaceKeeper UNIFEM Lip Gloss. PeaceKeeper was seen in stores such Henry Bendel, Nordstrom, Fred Segal, Whole Foods, Sprouts, Wegmans, etc. Jody began her professional career in sports marketing for IMG, rising to become a sports agent to 45 elite athletes. Her work included Woodstock 1999, the multinational Mazda Track Club (signing 216 athletes from 13 countries to compete globally) & the World Championships, raising millions for events during her career.",
+        "image": "headshots/jody.jpg",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/jody-weiss-0a0b1a",
+        "slug": "/investors/Jody-Weiss"
     }
 ];
 
 export default teamData;
-
-

@@ -92,6 +92,11 @@ const Team = (props) => {
           <TeamMember name="Alex Cornell du Houx" title="Defense & Energy Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'} />
           <TeamMember name="Maria Leister, JD" title="Bioethics/Genomics Advisor" image="headshots/maria.png" link="/investors/Maria-Leister" />
           <TeamMember name="Ian Arden" title='AI & Blockchain Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
+          <TeamMember name="Dr. Christyl Johnson" title="Space Advisor" image="headshots/christyl.jpg" link="/investors/Christyl-Johnson" />
+        </div>
+        <div className="team team5" data-aos="move">
+          <TeamMember name="Danny Ludeman" title="Investment Advisor" image="headshots/danny.jpg" link="/investors/Danny-Ludeman" />
+          <TeamMember name="Jody Weiss" title="Strategy & Impact Advisor" image="headshots/jody.jpg" link="/investors/Jody-Weiss" />
         </div>
       </div>
       <GetUpdates />
