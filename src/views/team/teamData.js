@@ -2,7 +2,7 @@ const teamData = [
     {
         "name": "Christian Elam",
         "title": "Founding General Partner",
-        "bio": "Christian is the founding general partner at Bachmanity Capital focused on deep tech, space, government, and national security deals. Prior to founding Bachmanity, he became the youngest person to attend Stanford for an exclusive computer science program at 10 years old, half the age as everyone else. He also launched successful apps on the App Store as a teenager, worked as a Senior iOS Engineer at 15, and founded two startups one of which was venture backed. Christian has also graduated from UC Berkeley-Haas School of Business at 18. He has a track record investing, transitioning from trading equities to angel investing and being an LP and on the investment committee of Sutton Capital. At the request of many founders and other investors, Christian founded Bachmanity Capital. Christian is not only focused on business, but also dedicated to philanthropy, particularly in the areas of mental health and youth advocacy, making significant contributions to legislation and other social impact initiatives.",
+        "bio": "Christian is the founding general partner at Bachmanity Capital, focused on deep tech, space, government, and national security deals. Prior to founding Bachmanity, he became the youngest person to attend Stanford for an exclusive computer science program at 10 years old, half the age of everyone else. He also launched successful apps on the App Store as a teenager, worked as a Senior iOS Engineer at 15, and founded two startups, one of which was venture-backed. Christian also graduated from UC Berkeley-Haas School of Business at 18. He has a track record in investing, transitioning from trading equities to angel investing and being an LP. At the request of many founders and other investors, Christian founded Bachmanity Capital. Christian is not only focused on business but also dedicated to philanthropy, particularly in the areas of mental health and youth advocacy. He has written meaningful portions of the Kids Online Safety Act, marking the first time in US history that youth representation has been formally built into a federal policy. Christian is on the task force for the Department of Energy to allocate the Inflation Reduction Act funds, is a co-chair for Concordance raising $1B to help lower re-incarceration rates, and is an advisor for Techstars, Nvidia accelerator, One Mind, Elected Officials to Protect America, various foundations/family offices, and other philanthropic efforts.",
         "image": "headshots/elam.png",
         "twitter": "https://twitter.com/ChristianElam6",
         "linkedin": "https://www.linkedin.com/in/christian-elam-4b0a471a8/",
@@ -107,15 +107,15 @@ const teamData = [
     //     "linkedin": "https://www.linkedin.com/in/brandontmaier/",
     //     "slug": "/investors/Brandon-Maier"
     // },
-    {
-        "name": "Ian Arden",
-        "title": "AI & Blockchain Advisor",
-        "bio": "Ian Arden is the founder of Mempool Ventures and is an Abu Dhabi based AI & Web 3 investor. He is a serial entrepreneur and advisor to 20+ brands and has accelerated over 300 global blockchain ventures. Ian is a former developer with a $130M exit.",
-        "image": "headshots/ian.png",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/ian-arden/?originalSubdomain=ae",
-        "slug": "/investors/Ian-Arden"
-    },
+    // {
+    //     "name": "Ian Arden",
+    //     "title": "AI & Blockchain Advisor",
+    //     "bio": "Ian Arden is the founder of Mempool Ventures and is an Abu Dhabi based AI & Web 3 investor. He is a serial entrepreneur and advisor to 20+ brands and has accelerated over 300 global blockchain ventures. Ian is a former developer with a $130M exit.",
+    //     "image": "headshots/ian.png",
+    //     "twitter": "",
+    //     "linkedin": "https://www.linkedin.com/in/ian-arden/?originalSubdomain=ae",
+    //     "slug": "/investors/Ian-Arden"
+    // },
     // {
     //     "name": "Conor Patton",
     //     "title": "Late Stage Advisor",
@@ -155,7 +155,7 @@ const teamData = [
     {
         "name": "Jody Weiss",
         "title": "Strategy & Impact Advisor",
-        "bio": "Jody Weiss - Strategy & Impact Advisor Jody is an Operating Partner with Chloe Capital, a diverse investment fund for women in SaaS technologies with a focus on climate and solutions for humanity. She is also the Founder of Women Funding the World, a gathering of women investors and men who support moving more capital to diversity. Jody is a co-host of a podcast with Dr. David Schwartz, a neuroscientist, called \"Exploring Reality, Maybe,\" where they explore what the mind, intellect, and ego might be, what reality might be, and how to play with perception, identity and the ego. Jody has worked on projects with iconic institutions such as the World Bank, UNIFEM, UN's World Food Programme, COP28, and many others. Jody founded PeaceKeeper™ Cause-Metics™ in April 2002 and served as the company’s lead voice and spokesperson. PeaceKeeper was one of the first cosmetic companies to give restricted donations to women’s health advocacy and human rights issues. The brand was nominated as a finalist for “Best Lip Product of the Year” and launched a lip gloss with the United Nations called PeaceKeeper UNIFEM Lip Gloss. PeaceKeeper was seen in stores such Henry Bendel, Nordstrom, Fred Segal, Whole Foods, Sprouts, Wegmans, etc. Jody began her professional career in sports marketing for IMG, rising to become a sports agent to 45 elite athletes. Her work included Woodstock 1999, the multinational Mazda Track Club (signing 216 athletes from 13 countries to compete globally) & the World Championships, raising millions for events during her career.",
+        "bio": "Jody is an Operating Partner with Chloe Capital, a diverse investment fund for women in SaaS technologies with a focus on climate and solutions for humanity. She is also the Founder of Women Funding the World, a gathering of women investors and men who support moving more capital to diversity. Jody is a co-host of a podcast with Dr. David Schwartz, a neuroscientist, called \"Exploring Reality, Maybe,\" where they explore what the mind, intellect, and ego might be, what reality might be, and how to play with perception, identity and the ego. Jody has worked on projects with iconic institutions such as the World Bank, UNIFEM, UN's World Food Programme, COP28, and many others. Jody founded PeaceKeeper™ Cause-Metics™ in April 2002 and served as the company’s lead voice and spokesperson. PeaceKeeper was one of the first cosmetic companies to give restricted donations to women’s health advocacy and human rights issues. The brand was nominated as a finalist for “Best Lip Product of the Year” and launched a lip gloss with the United Nations called PeaceKeeper UNIFEM Lip Gloss. PeaceKeeper was seen in stores such Henry Bendel, Nordstrom, Fred Segal, Whole Foods, Sprouts, Wegmans, etc. Jody began her professional career in sports marketing for IMG, rising to become a sports agent to 45 elite athletes. Her work included Woodstock 1999, the multinational Mazda Track Club (signing 216 athletes from 13 countries to compete globally) & the World Championships, raising millions for events during her career.",
         "image": "headshots/jody.jpg",
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/jody-weiss-0a0b1a",

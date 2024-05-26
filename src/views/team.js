@@ -83,20 +83,19 @@ const Team = (props) => {
           <TeamMember name="Tim Chrisman" title="Space & Defense Advisor" image="headshots/tim.jpg" link="/investors/Tim-Chrisman" fontSize={'1.3rem'} />
         </div>
         <div className="team team3" data-aos="move">
-          <TeamMember name="Patrick Morselli" title="Growth & Operations Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
           <TeamMember name="Ellen McCarthy" title="National Security Advisor" image="headshots/ellen.png" link="/investors/Ellen-McCarthy" />
-          <TeamMember name="Dr. Joel Palathinkal" title="Strategy Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
-          <TeamMember name="Kristin Wood" title="National Security Advisor" image="headshots/kristinw.png" link="/investors/Kristin-Wood" />
+          <TeamMember name="Danny Ludeman" title="Investment Advisor" image="headshots/danny.jpg" link="/investors/Danny-Ludeman" />
+          <TeamMember name="Dr. Christyl Johnson" title="Space Advisor" image="headshots/christyl.jpg" link="/investors/Christyl-Johnson" />
+          <TeamMember name="Alex Cornell du Houx" title="Defense & Energy Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'} />
         </div>
         <div className="team team4" data-aos="move">
-          <TeamMember name="Alex Cornell du Houx" title="Defense & Energy Advisor" image="headshots/alex.png" link="/investors/Alex-Cornell" fontSize={'1.3rem'} />
-          <TeamMember name="Maria Leister, JD" title="Bioethics/Genomics Advisor" image="headshots/maria.png" link="/investors/Maria-Leister" />
-          <TeamMember name="Ian Arden" title='AI & Blockchain Advisor' image="headshots/ian.png" link="/investors/Ian-Arden" />
-          <TeamMember name="Dr. Christyl Johnson" title="Space Advisor" image="headshots/christyl.jpg" link="/investors/Christyl-Johnson" />
+          <TeamMember name="Kristin Wood" title="National Security Advisor" image="headshots/kristinw.png" link="/investors/Kristin-Wood" />
+          <TeamMember name="Patrick Morselli" title="Growth & Operations Advisor" image="headshots/patrick.png" link="/investors/Patrick-Morselli" />
+          <TeamMember name="Jody Weiss" title="Strategy & Impact Advisor" image="headshots/jody.jpg" link="/investors/Jody-Weiss" />
+          <TeamMember name="Dr. Joel Palathinkal" title="Strategy Advisor" image="headshots/joel.png" link="/investors/Joel-Palathinkal" />
         </div>
         <div className="team team5" data-aos="move">
-          <TeamMember name="Danny Ludeman" title="Investment Advisor" image="headshots/danny.jpg" link="/investors/Danny-Ludeman" />
-          <TeamMember name="Jody Weiss" title="Strategy & Impact Advisor" image="headshots/jody.jpg" link="/investors/Jody-Weiss" />
+          <TeamMember name="Maria Leister, JD" title="Bioethics/Genomics Advisor" image="headshots/maria.png" link="/investors/Maria-Leister" />
         </div>
       </div>
       <GetUpdates />
